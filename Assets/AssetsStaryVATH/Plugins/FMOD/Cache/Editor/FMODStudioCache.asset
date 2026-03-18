@@ -1,0 +1,1358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9132719986511541534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/amb.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/amb.bank
+  Name: amb
+  StudioPath: bank:/amb
+  lastModified: 639094509712763465
+  FileSizes:
+  - Name: Desktop
+    Value: 3146912
+  Exists: 1
+--- !u!114 &-8840731247522223998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VibeSound6
+  m_EditorClassIdentifier: 
+  Path: event:/VibeSound6
+  Guid:
+    Data1: -1338276722
+    Data2: 1259084503
+    Data3: -1475855740
+    Data4: 755569301
+  Banks:
+  - {fileID: -6659696429335415418}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4374
+--- !u!114 &-8498277793719410034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VibeSound1
+  m_EditorClassIdentifier: 
+  Path: event:/VibeSound1
+  Guid:
+    Data1: -1008511815
+    Data2: 1077240223
+    Data3: 532148666
+    Data4: 1932690899
+  Banks:
+  - {fileID: -6659696429335415418}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-8331550753567991601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Krzak 2
+  m_EditorClassIdentifier: 
+  Path: event:/Krzak 2
+  Guid:
+    Data1: 511622311
+    Data2: 1287475026
+    Data3: 913490857
+    Data4: 2138601159
+  Banks:
+  - {fileID: 3443028813978651089}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1320
+--- !u!114 &-8065705834369634030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio OnOff.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/Radio OnOff.bank
+  Name: Radio OnOff
+  StudioPath: bank:/Radio OnOff
+  lastModified: 639094509712596784
+  FileSizes:
+  - Name: Desktop
+    Value: 1981120
+  Exists: 1
+--- !u!114 &-7846594897619148622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ryk
+  m_EditorClassIdentifier: 
+  Path: event:/Ryk
+  Guid:
+    Data1: -1219148059
+    Data2: 1220790109
+    Data3: -932810318
+    Data4: 1490175037
+  Banks:
+  - {fileID: 6327507518457860968}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1633
+--- !u!114 &-7477367813583096011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VibeSound4
+  m_EditorClassIdentifier: 
+  Path: event:/VibeSound4
+  Guid:
+    Data1: 142511546
+    Data2: 1246163327
+    Data3: 444065440
+    Data4: 1134621959
+  Banks:
+  - {fileID: -6659696429335415418}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-6899934572179629054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ryk5
+  m_EditorClassIdentifier: 
+  Path: event:/Ryk5
+  Guid:
+    Data1: -1478864989
+    Data2: 1142145652
+    Data3: -559151170
+    Data4: -1228681845
+  Banks:
+  - {fileID: 6327507518457860968}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1735
+--- !u!114 &-6659696429335415418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Vibe.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/Vibe.bank
+  Name: Vibe
+  StudioPath: bank:/Vibe
+  lastModified: 639094509712690928
+  FileSizes:
+  - Name: Desktop
+    Value: 2309920
+  Exists: 1
+--- !u!114 &-5855788772323439565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VibeSound5
+  m_EditorClassIdentifier: 
+  Path: event:/VibeSound5
+  Guid:
+    Data1: 1893762880
+    Data2: 1334803035
+    Data3: -1317489792
+    Data4: -1311763698
+  Banks:
+  - {fileID: -6659696429335415418}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3928
+--- !u!114 &-5623377373126284010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ryk3
+  m_EditorClassIdentifier: 
+  Path: event:/Ryk3
+  Guid:
+    Data1: 1280817677
+    Data2: 1262556081
+    Data3: 813751475
+    Data4: -1988153947
+  Banks:
+  - {fileID: 3443028813978651089}
+  - {fileID: 6327507518457860968}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2508
+--- !u!114 &-5444452152298864369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Radio
+  m_EditorClassIdentifier: 
+  Path: event:/Radio
+  Guid:
+    Data1: -1856520221
+    Data2: 1226549089
+    Data3: -79101557
+    Data4: -1333246931
+  Banks:
+  - {fileID: -8065705834369634030}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 147508
+--- !u!114 &-5232235096829166806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Death
+  m_EditorClassIdentifier: 
+  Path: event:/Death
+  Guid:
+    Data1: 718709086
+    Data2: 1302412960
+    Data3: 2101358518
+    Data4: -1718333592
+  Banks:
+  - {fileID: -1824014704726716799}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1192
+--- !u!114 &-4036053292732048919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb/OnOff
+  m_EditorClassIdentifier: 
+  Name: OnOff
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 254671007
+    data2: 1433326887
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3995122728217074649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Krzak 5
+  m_EditorClassIdentifier: 
+  Path: event:/Krzak 5
+  Guid:
+    Data1: -1091612478
+    Data2: 1246896866
+    Data3: -1826583150
+    Data4: -640171752
+  Banks:
+  - {fileID: 3443028813978651089}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2800
+--- !u!114 &-3853998341098557191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chodzenie grass
+  m_EditorClassIdentifier: 
+  Path: event:/Chodzenie grass
+  Guid:
+    Data1: -961844688
+    Data2: 1294464360
+    Data3: -2055806052
+    Data4: 878443419
+  Banks:
+  - {fileID: -2008726384275895526}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 850
+--- !u!114 &-3551833540734583928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VibeSound2
+  m_EditorClassIdentifier: 
+  Path: event:/VibeSound2
+  Guid:
+    Data1: -1395236351
+    Data2: 1210159032
+    Data3: -446919036
+    Data4: 589084488
+  Banks:
+  - {fileID: -6659696429335415418}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 595
+--- !u!114 &-3542247801405817691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Krzak 3
+  m_EditorClassIdentifier: 
+  Path: event:/Krzak 3
+  Guid:
+    Data1: 1785182139
+    Data2: 1183646122
+    Data3: -2111197765
+    Data4: 680179143
+  Banks:
+  - {fileID: 3443028813978651089}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1400
+--- !u!114 &-3337786178967252564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chodzenie zmienne
+  m_EditorClassIdentifier: 
+  Path: event:/Chodzenie zmienne
+  Guid:
+    Data1: -1599893112
+    Data2: 1237782454
+    Data3: 809913022
+    Data4: -1620576071
+  Banks:
+  - {fileID: -2008726384275895526}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7390453150791513975}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 850
+--- !u!114 &-3310971971325701450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Krzak 3.2
+  m_EditorClassIdentifier: 
+  Path: event:/Krzak 3.2
+  Guid:
+    Data1: -139122696
+    Data2: 1128135660
+    Data3: 1541522836
+    Data4: 8523800
+  Banks:
+  - {fileID: 3443028813978651089}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1400
+--- !u!114 &-3167510611706734384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ryk4
+  m_EditorClassIdentifier: 
+  Path: event:/Ryk4
+  Guid:
+    Data1: -1410213304
+    Data2: 1103114025
+    Data3: -1033598277
+    Data4: -794681902
+  Banks:
+  - {fileID: 6327507518457860968}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2187
+--- !u!114 &-2648717183391592682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VibeSound3
+  m_EditorClassIdentifier: 
+  Path: event:/VibeSound3
+  Guid:
+    Data1: 153112984
+    Data2: 1215057641
+    Data3: -602364250
+    Data4: 2012172439
+  Banks:
+  - {fileID: -6659696429335415418}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 350
+--- !u!114 &-2295484457910805775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Car2
+  m_EditorClassIdentifier: 
+  Path: event:/Car2
+  Guid:
+    Data1: 1289091408
+    Data2: 1267946810
+    Data3: -25681264
+    Data4: -1031163841
+  Banks:
+  - {fileID: -2060382199712439202}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10500
+--- !u!114 &-2060382199712439202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Car.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/Car.bank
+  Name: Car
+  StudioPath: bank:/Car
+  lastModified: 639094509712466723
+  FileSizes:
+  - Name: Desktop
+    Value: 1526688
+  Exists: 1
+--- !u!114 &-2008726384275895526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Chodzenie.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/Chodzenie.bank
+  Name: Chodzenie
+  StudioPath: bank:/Chodzenie
+  lastModified: 639094509712466723
+  FileSizes:
+  - Name: Desktop
+    Value: 142272
+  Exists: 1
+--- !u!114 &-1824014704726716799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Death.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/Death.bank
+  Name: Death
+  StudioPath: bank:/Death
+  lastModified: 639094509712466723
+  FileSizes:
+  - Name: Desktop
+    Value: 101792
+  Exists: 1
+--- !u!114 &-1667041526531744094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Krzak 4.2
+  m_EditorClassIdentifier: 
+  Path: event:/Krzak 4.2
+  Guid:
+    Data1: 1514438807
+    Data2: 1280700730
+    Data3: 914197161
+    Data4: -1669227999
+  Banks:
+  - {fileID: 3443028813978651089}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1400
+--- !u!114 &-1465466116344280848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Radio Off
+  m_EditorClassIdentifier: 
+  Path: event:/Radio Off
+  Guid:
+    Data1: 1279069726
+    Data2: 1210288851
+    Data3: 547463614
+    Data4: 1382746767
+  Banks:
+  - {fileID: -8065705834369634030}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6904
+--- !u!114 &-846308519542900201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Krzak 4
+  m_EditorClassIdentifier: 
+  Path: event:/Krzak 4
+  Guid:
+    Data1: 1482509154
+    Data2: 1250057242
+    Data3: 1435810972
+    Data4: 204134323
+  Banks:
+  - {fileID: 3443028813978651089}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1400
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 8868777538972322576}
+  - {fileID: -9132719986511541534}
+  - {fileID: 3443028813978651089}
+  - {fileID: 8734380165017416376}
+  - {fileID: 4168577168061076200}
+  - {fileID: -2008726384275895526}
+  - {fileID: -8065705834369634030}
+  - {fileID: -1824014704726716799}
+  - {fileID: 6327507518457860968}
+  - {fileID: -6659696429335415418}
+  - {fileID: -2060382199712439202}
+  - {fileID: 5023437043792107329}
+  EditorEvents:
+  - {fileID: 4428198030077782978}
+  - {fileID: 8250775956568427309}
+  - {fileID: 6552679388482776063}
+  - {fileID: 9013860883539154687}
+  - {fileID: -846308519542900201}
+  - {fileID: -1667041526531744094}
+  - {fileID: -8331550753567991601}
+  - {fileID: -3542247801405817691}
+  - {fileID: 6320033798747684372}
+  - {fileID: -3310971971325701450}
+  - {fileID: -1465466116344280848}
+  - {fileID: -5444452152298864369}
+  - {fileID: -5232235096829166806}
+  - {fileID: -5623377373126284010}
+  - {fileID: -3167510611706734384}
+  - {fileID: -6899934572179629054}
+  - {fileID: 4907223491460557945}
+  - {fileID: -7846594897619148622}
+  - {fileID: -3551833540734583928}
+  - {fileID: -5855788772323439565}
+  - {fileID: -8840731247522223998}
+  - {fileID: -2648717183391592682}
+  - {fileID: -8498277793719410034}
+  - {fileID: -7477367813583096011}
+  - {fileID: 5179815031878296292}
+  - {fileID: -3995122728217074649}
+  - {fileID: -3337786178967252564}
+  - {fileID: 1359308283576959531}
+  - {fileID: -2295484457910805775}
+  - {fileID: 180526514968454857}
+  - {fileID: 2814252514975425341}
+  - {fileID: 2509617814225612739}
+  - {fileID: 8485670718246659500}
+  - {fileID: -3853998341098557191}
+  - {fileID: 7178794841300754723}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 8734380165017416376}
+  StringsBanks:
+  - {fileID: 8868777538972322576}
+  cacheTime: 639094509712763465
+  cacheVersion: 131624
+--- !u!114 &180526514968454857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Death Player
+  m_EditorClassIdentifier: 
+  Path: event:/Death Player
+  Guid:
+    Data1: -313659555
+    Data2: 1196641852
+    Data3: 1043545480
+    Data4: 1475180096
+  Banks:
+  - {fileID: -1824014704726716799}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 826
+--- !u!114 &1359308283576959531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Car
+  m_EditorClassIdentifier: 
+  Path: event:/Car
+  Guid:
+    Data1: 2006587429
+    Data2: 1220160715
+    Data3: 1192817283
+    Data4: 1998356608
+  Banks:
+  - {fileID: -2060382199712439202}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40000
+--- !u!114 &2509617814225612739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Door close
+  m_EditorClassIdentifier: 
+  Path: event:/Door close
+  Guid:
+    Data1: 1913156675
+    Data2: 1187340409
+    Data3: 399869838
+    Data4: -1842717093
+  Banks:
+  - {fileID: -6659696429335415418}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &2814252514975425341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Door
+  m_EditorClassIdentifier: 
+  Path: event:/Door
+  Guid:
+    Data1: -1649242967
+    Data2: 1315249890
+    Data3: 1505310128
+    Data4: 1591699292
+  Banks:
+  - {fileID: -6659696429335415418}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3598
+--- !u!114 &3443028813978651089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Krzak.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/Krzak.bank
+  Name: Krzak
+  StudioPath: bank:/Krzak
+  lastModified: 639094509712466723
+  FileSizes:
+  - Name: Desktop
+    Value: 920160
+  Exists: 1
+--- !u!114 &4168577168061076200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/shoot.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/shoot.bank
+  Name: shoot
+  StudioPath: bank:/shoot
+  lastModified: 639094509712763465
+  FileSizes:
+  - Name: Desktop
+    Value: 34944
+  Exists: 1
+--- !u!114 &4428198030077782978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb
+  m_EditorClassIdentifier: 
+  Path: event:/Amb
+  Guid:
+    Data1: -553052588
+    Data2: 1300064967
+    Data3: 590396072
+    Data4: 150342481
+  Banks:
+  - {fileID: -9132719986511541534}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6191798405723617436}
+  - {fileID: -4036053292732048919}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 75000
+--- !u!114 &4907223491460557945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ryk2
+  m_EditorClassIdentifier: 
+  Path: event:/Ryk2
+  Guid:
+    Data1: 1503770330
+    Data2: 1243180522
+    Data3: -914267240
+    Data4: -494582623
+  Banks:
+  - {fileID: 6327507518457860968}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2125
+--- !u!114 &5023437043792107329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Reload.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/Reload.bank
+  Name: Reload
+  StudioPath: bank:/Reload
+  lastModified: 639094509712596784
+  FileSizes:
+  - Name: Desktop
+    Value: 66016
+  Exists: 1
+--- !u!114 &5179815031878296292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vibe
+  m_EditorClassIdentifier: 
+  Path: event:/Vibe
+  Guid:
+    Data1: 1560188921
+    Data2: 1197472031
+    Data3: 697588627
+    Data4: 1795099806
+  Banks:
+  - {fileID: -6659696429335415418}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4100
+--- !u!114 &6191798405723617436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb/AmbVol
+  m_EditorClassIdentifier: 
+  Name: AmbVol
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 215573958
+    data2: 1248850853
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6320033798747684372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Krzak 1.2
+  m_EditorClassIdentifier: 
+  Path: event:/Krzak 1.2
+  Guid:
+    Data1: 138029555
+    Data2: 1159100820
+    Data3: 805898396
+    Data4: 179712003
+  Banks:
+  - {fileID: 3443028813978651089}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 992
+--- !u!114 &6327507518457860968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ryk.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/Ryk.bank
+  Name: Ryk
+  StudioPath: bank:/Ryk
+  lastModified: 639094509712596784
+  FileSizes:
+  - Name: Desktop
+    Value: 185088
+  Exists: 1
+--- !u!114 &6552679388482776063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shoot rev
+  m_EditorClassIdentifier: 
+  Path: event:/Shoot rev
+  Guid:
+    Data1: 2002892190
+    Data2: 1151469711
+    Data3: 1421336458
+    Data4: 1517768262
+  Banks:
+  - {fileID: 4168577168061076200}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &7178794841300754723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chodzenie wood
+  m_EditorClassIdentifier: 
+  Path: event:/Chodzenie wood
+  Guid:
+    Data1: -674777544
+    Data2: 1180278110
+    Data3: -682218080
+    Data4: 342932317
+  Banks:
+  - {fileID: -2008726384275895526}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7385753940258941400}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 487
+--- !u!114 &7385753940258941400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chodzenie wood/FoodStep
+  m_EditorClassIdentifier: 
+  Name: FoodStep
+  StudioPath: 
+  Min: 0
+  Max: 0
+  Default: 0
+  ID:
+    data1: 3151451032
+    data2: 2851103129
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Wood
+  Exists: 1
+--- !u!114 &7390453150791513975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chodzenie zmienne/FoodStep
+  m_EditorClassIdentifier: 
+  Name: FoodStep
+  StudioPath: 
+  Min: 0
+  Max: 0
+  Default: 0
+  ID:
+    data1: 3151451032
+    data2: 2851103129
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Wood
+  Exists: 1
+--- !u!114 &8250775956568427309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Krzak 1
+  m_EditorClassIdentifier: 
+  Path: event:/Krzak 1
+  Guid:
+    Data1: -1837167988
+    Data2: 1186916743
+    Data3: 1711416463
+    Data4: 1587967210
+  Banks:
+  - {fileID: 3443028813978651089}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &8485670718246659500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Reload
+  Guid:
+    Data1: -1781893133
+    Data2: 1116821726
+    Data3: 317392008
+    Data4: -1595216186
+  Banks:
+  - {fileID: 5023437043792107329}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 560
+--- !u!114 &8734380165017416376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639094509712466723
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &8868777538972322576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/Zaliczenie Audio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639094509712466723
+  FileSizes:
+  - Name: Desktop
+    Value: 2726
+  Exists: 1
+--- !u!114 &9013860883539154687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Krzak 2.2
+  m_EditorClassIdentifier: 
+  Path: event:/Krzak 2.2
+  Guid:
+    Data1: -1625777846
+    Data2: 1228993524
+    Data3: 1861807522
+    Data4: -8775049
+  Banks:
+  - {fileID: 3443028813978651089}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1320
