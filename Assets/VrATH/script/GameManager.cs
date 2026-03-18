@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System;
 using UnityEngine;
 using System.Linq;
@@ -57,17 +57,16 @@ public class GameManager : MonoBehaviour
 
         while (!allPlacedSuccessfully)
         {
-            // Reset sequence and destroy existing objects
             Array.Clear(sequence, 0, sequence.Length);
+
             foreach (var obj in instantiatedObjects)
                 Destroy(obj);
             instantiatedObjects.Clear();
 
-            Debug.Log("Reset u�o�enia");
+            Debug.Log("Reset ułożenia");
 
             allPlacedSuccessfully = true;
 
-            // Place '0' randomly at the beginning (positions 0�2)
             int zeroPos = rand.Next(0, 3);
             if (!PlaceCharacter('0', zeroPos, rand))
             {
@@ -75,17 +74,14 @@ public class GameManager : MonoBehaviour
                 continue;
             }
 
-            // List of characters to place (A�E)
             List<char> requiredCharacters = new List<char> { 'A', 'B', 'C', 'D', 'E' };
 
-            // Shuffle list (Fisher-Yates)
             for (int i = requiredCharacters.Count - 1; i > 0; i--)
             {
                 int j = rand.Next(i + 1);
                 (requiredCharacters[i], requiredCharacters[j]) = (requiredCharacters[j], requiredCharacters[i]);
             }
 
-            // Try to place each character
             foreach (char ch in requiredCharacters)
             {
                 bool placed = false;
@@ -113,43 +109,48 @@ public class GameManager : MonoBehaviour
     bool PlaceCharacter(char character, int position, System.Random rand)
     {
         int[] pattern = characters[character];
+
         if (position + pattern.Length > sequence.Length)
             return false;
 
-        // Check for collision
+        // kolizja
         for (int i = 0; i < pattern.Length; i++)
         {
             if (sequence[position + i] == 1 && pattern[i] == 1)
                 return false;
         }
 
-        // Place the pattern
+        // zapis do tablicy
         for (int i = 0; i < pattern.Length; i++)
         {
             if (pattern[i] == 1)
                 sequence[position + i] = 1;
         }
 
+        // 🔥 KLUCZ: oś Z + mnożenie ×4
+        Vector3 spawnPos = new Vector3(0, 0, position * 4);
+
         GameObject newCharacter = null;
-        if (character == 'A') newCharacter = Instantiate(characterA, new Vector3(position, 0, 0), Quaternion.identity);
-        else if (character == 'B') newCharacter = Instantiate(characterB, new Vector3(position, 0, 0), Quaternion.identity);
-        else if (character == 'C') newCharacter = Instantiate(characterC, new Vector3(position, 0, 0), Quaternion.identity);
-        else if (character == 'D') newCharacter = Instantiate(characterD, new Vector3(position, 0, 0), Quaternion.identity);
-        else if (character == 'E') newCharacter = Instantiate(characterE, new Vector3(position, 0, 0), Quaternion.identity);
-        else if (character == '0') newCharacter = Instantiate(vibeDoor, new Vector3(position, 0, 0), Quaternion.identity);
+
+        if (character == 'A') newCharacter = Instantiate(characterA, spawnPos, Quaternion.identity);
+        else if (character == 'B') newCharacter = Instantiate(characterB, spawnPos, Quaternion.identity);
+        else if (character == 'C') newCharacter = Instantiate(characterC, spawnPos, Quaternion.identity);
+        else if (character == 'D') newCharacter = Instantiate(characterD, spawnPos, Quaternion.identity);
+        else if (character == 'E') newCharacter = Instantiate(characterE, spawnPos, Quaternion.identity);
+        else if (character == '0') newCharacter = Instantiate(vibeDoor, spawnPos, Quaternion.identity);
 
         if (newCharacter != null)
         {
             instantiatedObjects.Add(newCharacter);
         }
 
-        Debug.Log($"Posta� {character} dodana do pozycji {position}");
+        Debug.Log($"Postać {character} dodana do pozycji {position}");
         return true;
     }
 
     void PrintSequence()
     {
-        string result = "Ci�g wynikowy: " + string.Join(" ", sequence);
+        string result = "Ciąg wynikowy: " + string.Join(" ", sequence);
         Debug.Log(result);
     }
 
@@ -159,11 +160,12 @@ public class GameManager : MonoBehaviour
         {
             if (sequence[i] == 0)
             {
-                GameObject vibeCharacter = Instantiate(characterVibe, new Vector3(i, 0, 0), Quaternion.identity);
+                // 🔥 też oś Z + ×4
+                Vector3 spawnPos = new Vector3(0, 0, i * 4);
+
+                GameObject vibeCharacter = Instantiate(characterVibe, spawnPos, Quaternion.identity);
                 instantiatedObjects.Add(vibeCharacter);
             }
         }
     }
-
-
 }
