@@ -27,9 +27,9 @@ public class DEMON_C_script : MonoBehaviour
             // Obliczamy globaln¹ pozycjê œrodka collidiera
             Vector3 worldCenter = lastBoxCollider.transform.TransformPoint(lastBoxCollider.center);
             // prawo/lewo
-            float offsetZ = Random.Range(0f, 1f) > 0.5f ? 4f : -4f;
+            float offsetX = Random.Range(0f, 1f) > 0.5f ? 20f : -20f;
 
-            spawnerPosition = worldCenter + new Vector3(0, 0, offsetZ);
+            spawnerPosition = worldCenter + new Vector3(0, 0, offsetX);
 
             if (demonChild != null)
             {
