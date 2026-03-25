@@ -27,11 +27,11 @@ public class forest_spawner_script : MonoBehaviour
         {
             attempts++;
 
-            float x = Random.Range(-2f, 30f);
-            float z = Random.Range(-5f, 5f);
+            float z = Random.Range(-4f, 80f);
+            float x = Random.Range(-5f, 5f);
 
             // Zakazane strefy
-            if (x >= -1f && x <= 30f && z >= -1.5f && z <= 1.5f)
+            if (z >= -1f && z <= 81f && x >= -1.5f && x <= 1.5f)
                 continue;
 
             Vector3 spawnPos = new Vector3(x, 0f, z);
@@ -76,8 +76,8 @@ public class forest_spawner_script : MonoBehaviour
             foreach (float z in new float[] { 1f, -1f })
             {
                 // Dodaj losowy offset 0.4 na X i Z
-                float offsetX = Random.Range(-0.02f, 0.02f);
-                float offsetZ = Random.Range(-0.2f, 0.2f);
+                float offsetZ = Random.Range(-0.02f, 0.02f);
+                float offsetX = Random.Range(-0.2f, 0.2f);
 
                 Vector3 spawnPos = new Vector3(x + offsetX, 0f, z + offsetZ);
 

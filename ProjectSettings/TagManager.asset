@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Anchor
+  - Hand
+  - Bullet
+  - car
+  - House
+  - Demon
   layers:
   - Default
   - TransparentFX

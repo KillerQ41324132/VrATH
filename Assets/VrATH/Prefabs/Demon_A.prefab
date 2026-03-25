@@ -110,8 +110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa2f4a3af2d14e04e9032d854a9c5539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  demonPrefab: {fileID: 0}
-  demonChild: {fileID: 6107393099092459662, guid: dd6dae2c12394ef4b99edf35dd12136c, type: 3}
+  demonPrefab: {fileID: 3768955525583164143, guid: 9a8bce0e67794f94f9c49832309ae3ab, type: 3}
+  demonChild: {fileID: 3768955525583164143, guid: 86fe477237e4a8c47ac0ba809e9899ec, type: 3}
   BushA:
     Guid:
       Data1: 0

@@ -88,8 +88,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24fb2fd96de93f246ad838323e147ef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  demonPrefab: {fileID: 0}
-  demonChild: {fileID: 6107393099092459662, guid: dd6dae2c12394ef4b99edf35dd12136c, type: 3}
+  demonPrefab: {fileID: 3768955525583164143, guid: 9a8bce0e67794f94f9c49832309ae3ab, type: 3}
+  demonChild: {fileID: 3768955525583164143, guid: 9a8bce0e67794f94f9c49832309ae3ab, type: 3}
   BushE:
     Guid:
       Data1: 0
