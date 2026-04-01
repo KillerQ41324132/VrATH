@@ -6,7 +6,7 @@ using FMOD.Studio;
 public class DEMON_E_script : MonoBehaviour
 {
     [SerializeField] private GameObject demonPrefab; // Przypisany prefab dla demona
-    [SerializeField] private GameObject demonChild;  // Przypisany GameObject jako dziecko, które ma siê pojawiæ
+    [SerializeField] private GameObject demonChild;  // Przypisany GameObject jako dziecko, które ma siê pojawiæ testowy place
     [SerializeField] private EventReference BushE;
     [SerializeField] private EventReference EJump;
     private int stage;
@@ -29,7 +29,7 @@ public class DEMON_E_script : MonoBehaviour
             // prawo/lewo
             float offsetX = Random.Range(0f, 1f) > 0.5f ? 20f : -20f;
 
-            spawnerPosition = worldCenter + new Vector3(0, 0, offsetX);
+            spawnerPosition = worldCenter + new Vector3(offsetX, 0, 0);
 
             if (demonChild != null)
             {

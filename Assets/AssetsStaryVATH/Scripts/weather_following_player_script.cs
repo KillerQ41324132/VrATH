@@ -8,9 +8,9 @@ public class weather_following_player_script : MonoBehaviour
     void Start()
     {
 
-        if (player_script.Instance != null)
+        if (global::Player.Instance != null)
         {
-            player = player_script.Instance.gameObject;
+            player = global::Player.Instance.gameObject;
         }
         else
         {

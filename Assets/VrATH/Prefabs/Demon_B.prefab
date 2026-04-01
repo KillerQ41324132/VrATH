@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   demonPrefab: {fileID: 3768955525583164143, guid: 9a8bce0e67794f94f9c49832309ae3ab, type: 3}
-  demonChild: {fileID: 3768955525583164143, guid: 9a8bce0e67794f94f9c49832309ae3ab, type: 3}
+  demonChild: {fileID: 0}
   BushB:
     Guid:
       Data1: 0

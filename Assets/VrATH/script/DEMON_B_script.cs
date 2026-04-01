@@ -30,7 +30,7 @@ public class DEMON_B_script : MonoBehaviour
             // prawo/lewo
             float offsetX = Random.Range(0f, 1f) > 0.5f ? 20f : -20f;
 
-            spawnerPosition = worldCenter + new Vector3(0, 0, offsetX);
+            spawnerPosition = worldCenter + new Vector3(offsetX, 0, 0);
 
             if (demonChild != null)
             {

@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using FMODUnity;
 using UnityEngine.InputSystem;
 
@@ -16,6 +16,7 @@ public class Player_hand_script : MonoBehaviour
 
     [Header("Input System")]
     [SerializeField] private InputActionReference rightJoystick; // Vector2
+    [SerializeField] private InputActionReference shootAction;   // 🔥 NOWE (trigger)
 
     private int ammo;
     private bool isDead = false;
@@ -31,11 +32,17 @@ public class Player_hand_script : MonoBehaviour
     void OnEnable()
     {
         rightJoystick.action.Enable();
+        shootAction.action.Enable();
+
+        shootAction.action.performed += OnShoot; // 🔥 trigger VR
     }
 
     void OnDisable()
     {
         rightJoystick.action.Disable();
+
+        shootAction.action.performed -= OnShoot;
+        shootAction.action.Disable();
     }
 
     void Start()
@@ -50,23 +57,27 @@ public class Player_hand_script : MonoBehaviour
     {
         HandleJoystickInput();
 
-        if (Mouse.current.leftButton.wasPressedThisFrame && !isDead)
-        {
-            if (transform.position.x > -0.2f || ammo > 0)
-            {
-                Shoot();
-            }
-        }
+        // ❌ USUNIĘTY MOUSE
+        // teraz tylko VR trigger działa
 
         HouseZone = transform.position.x < -0.2f;
+    }
+
+    void OnShoot(InputAction.CallbackContext context)
+    {
+        if (isDead)
+            return;
+
+        if (transform.position.x > -0.2f || ammo > 0)
+        {
+            Shoot();
+        }
     }
 
     void HandleJoystickInput()
     {
         Vector2 input = rightJoystick.action.ReadValue<Vector2>();
         float x = input.x;
-
-        Debug.Log("Input is: " + x);
 
         if (!joystickInUse)
         {
@@ -100,6 +111,7 @@ public class Player_hand_script : MonoBehaviour
 
     void Shoot()
     {
+        Debug.Log("shot");
         if (!HouseZone && Time.time - lastShootTime < shootCooldown)
             return;
 
@@ -113,7 +125,7 @@ public class Player_hand_script : MonoBehaviour
 
         if (!HouseZone && hasShotBulletType[typeIndex])
         {
-            Debug.Log($"Typ {selectedBulletType} ju� u�yty!");
+            Debug.Log($"Typ {selectedBulletType} już użyty!");
             return;
         }
 
@@ -151,7 +163,7 @@ public class Player_hand_script : MonoBehaviour
             lastShootTime = Time.time;
 
             AudioManager.instance.PlayOneShot(shootSound, transform.position);
-            Debug.Log($"Strza� typ {selectedBulletType} | ammo: {ammo}");
+            Debug.Log($"Strzał typ {selectedBulletType} | ammo: {ammo}");
         }
     }
 
