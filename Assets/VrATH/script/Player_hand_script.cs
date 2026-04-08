@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using FMODUnity;
+using TMPro;
 using UnityEngine.InputSystem;
 
 public class Player_hand_script : MonoBehaviour
@@ -15,32 +16,32 @@ public class Player_hand_script : MonoBehaviour
     [SerializeField] private GameObject pistolBullet;
 
     [Header("Input System")]
-    [SerializeField] private InputActionReference rightJoystick; // Vector2
-    [SerializeField] private InputActionReference shootAction;   // 🔥 NOWE (trigger)
+    [SerializeField] private InputActionReference rightJoystick;
+    [SerializeField] private InputActionReference shootAction;
 
     private int ammo;
     private bool isDead = false;
     private bool HouseZone;
 
     private bool[] hasShotBulletType = new bool[5];
-
     private int selectedBulletType = 1;
 
     [SerializeField] private float joystickDeadzone = 0.7f;
     private bool joystickInUse = false;
 
+    // ✅ TEXT 3D (NA PLANE / W ŚWIECIE)
+    [SerializeField] private TextMeshPro currentBulletTypeText;
+
     void OnEnable()
     {
         rightJoystick.action.Enable();
         shootAction.action.Enable();
-
-        shootAction.action.performed += OnShoot; // 🔥 trigger VR
+        shootAction.action.performed += OnShoot;
     }
 
     void OnDisable()
     {
         rightJoystick.action.Disable();
-
         shootAction.action.performed -= OnShoot;
         shootAction.action.Disable();
     }
@@ -51,27 +52,25 @@ public class Player_hand_script : MonoBehaviour
 
         for (int i = 0; i < hasShotBulletType.Length; i++)
             hasShotBulletType[i] = false;
+
+        UpdateBulletText(); // ✅ ustaw tekst na start
     }
 
     void Update()
     {
         HandleJoystickInput();
-
-        // ❌ USUNIĘTY MOUSE
-        // teraz tylko VR trigger działa
-
-        HouseZone = transform.position.x < -0.2f;
+        
     }
 
     void OnShoot(InputAction.CallbackContext context)
     {
         if (isDead)
             return;
-
-        if (transform.position.x > -0.2f || ammo > 0)
+        if(ammo > 0)
         {
             Shoot();
         }
+
     }
 
     void HandleJoystickInput()
@@ -89,6 +88,8 @@ public class Player_hand_script : MonoBehaviour
 
                 RuntimeManager.PlayOneShot(reload);
                 Debug.Log("Typ: " + selectedBulletType);
+
+                UpdateBulletText(); // ✅ aktualizacja tekstu
                 joystickInUse = true;
             }
             else if (x < -joystickDeadzone)
@@ -99,6 +100,8 @@ public class Player_hand_script : MonoBehaviour
 
                 RuntimeManager.PlayOneShot(reload);
                 Debug.Log("Typ: " + selectedBulletType);
+
+                UpdateBulletText(); // ✅ aktualizacja tekstu
                 joystickInUse = true;
             }
         }
@@ -109,13 +112,19 @@ public class Player_hand_script : MonoBehaviour
         }
     }
 
+    void UpdateBulletText()
+    {
+        if (currentBulletTypeText != null)
+            currentBulletTypeText.text = selectedBulletType.ToString();
+    }
+
     void Shoot()
     {
-        Debug.Log("shot");
-        if (!HouseZone && Time.time - lastShootTime < shootCooldown)
+
+        if (Time.time - lastShootTime < shootCooldown)
             return;
 
-        if (!HouseZone && ammo <= 0)
+        if (ammo <= 0)
         {
             Debug.Log("Brak amunicji!");
             return;
@@ -123,7 +132,7 @@ public class Player_hand_script : MonoBehaviour
 
         int typeIndex = selectedBulletType - 1;
 
-        if (!HouseZone && hasShotBulletType[typeIndex])
+        if (hasShotBulletType[typeIndex])
         {
             Debug.Log($"Typ {selectedBulletType} już użyty!");
             return;
@@ -132,7 +141,7 @@ public class Player_hand_script : MonoBehaviour
         GameObject prefabToUse = HouseZone ? armInteraction : pistolBullet;
         GameObject bullet = Instantiate(prefabToUse, transform.position, transform.rotation);
 
-        if (!HouseZone)
+        /*if (HouseZone)
         {
             string layerName = selectedBulletType switch
             {
@@ -150,21 +159,29 @@ public class Player_hand_script : MonoBehaviour
                 if (layer != -1)
                     bullet.layer = layer;
             }
-        }
+        }*/
 
         Bullet bulletScript = bullet.GetComponent<Bullet>();
         if (bulletScript != null)
-            bulletScript.SetSpeed(bulletSpeed);
-
-        if (!HouseZone)
         {
-            ammo--;
+            Debug.Log("shot");
+            bulletScript.SetSpeed(bulletSpeed);
+            selectedBulletType++;
+
+            if (selectedBulletType > 5)
+            {
+                selectedBulletType = 1;
+            }
+            UpdateBulletText();
+        }
+
+
+        ammo--;
             hasShotBulletType[typeIndex] = true;
             lastShootTime = Time.time;
 
-            AudioManager.instance.PlayOneShot(shootSound, transform.position);
+            //AudioManager.instance.PlayOneShot(shootSound, transform.position);
             Debug.Log($"Strzał typ {selectedBulletType} | ammo: {ammo}");
-        }
     }
 
     private void OnTriggerEnter(Collider other)
