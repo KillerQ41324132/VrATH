@@ -25,7 +25,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject characterC;
     [SerializeField] private GameObject characterD;
     [SerializeField] private GameObject characterE;
-    [SerializeField] private GameObject vibeDoor;
     [SerializeField] private GameObject characterVibe;
 
     private List<GameObject> instantiatedObjects = new List<GameObject>();
@@ -137,7 +136,6 @@ public class GameManager : MonoBehaviour
         else if (character == 'C') newCharacter = Instantiate(characterC, spawnPos, Quaternion.identity);
         else if (character == 'D') newCharacter = Instantiate(characterD, spawnPos, Quaternion.identity);
         else if (character == 'E') newCharacter = Instantiate(characterE, spawnPos, Quaternion.identity);
-        else if (character == '0') newCharacter = Instantiate(vibeDoor, spawnPos, Quaternion.identity);
 
         if (newCharacter != null)
         {

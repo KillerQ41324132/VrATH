@@ -9,6 +9,7 @@ public class VIBE_sounds_script : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("vibe"); 
             RuntimeManager.PlayOneShot(vibeSound, transform.position);
         }
     }

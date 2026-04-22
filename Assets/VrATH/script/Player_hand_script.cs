@@ -51,7 +51,15 @@ public class Player_hand_script : MonoBehaviour
         ammo = 5;
 
         for (int i = 0; i < hasShotBulletType.Length; i++)
+        {
+            if (i == 10)
+            {
+                return;
+            }
             hasShotBulletType[i] = false;
+
+        }
+
 
         UpdateBulletText(); // ✅ ustaw tekst na start
     }
@@ -82,10 +90,15 @@ public class Player_hand_script : MonoBehaviour
         {
             if (x > joystickDeadzone)
             {
-                selectedBulletType++;
-                if (selectedBulletType > 5)
-                    selectedBulletType = 1;
-
+                int attempts = 0;
+                do
+                {
+                    selectedBulletType++;
+                    if (selectedBulletType > 5)
+                        selectedBulletType = 1;
+                    attempts++;
+                }
+                while (hasShotBulletType[selectedBulletType - 1] && attempts < 5);
                 RuntimeManager.PlayOneShot(reload);
                 Debug.Log("Typ: " + selectedBulletType);
 
@@ -94,10 +107,17 @@ public class Player_hand_script : MonoBehaviour
             }
             else if (x < -joystickDeadzone)
             {
-                selectedBulletType--;
-                if (selectedBulletType < 1)
-                    selectedBulletType = 5;
-
+                int attempts = 0;
+                do
+                {
+                    selectedBulletType--;
+                    if (selectedBulletType < 1)
+                        selectedBulletType = 5;
+                    attempts++;
+                }
+                while (hasShotBulletType[selectedBulletType - 1] && attempts < 5);
+                
+                
                 RuntimeManager.PlayOneShot(reload);
                 Debug.Log("Typ: " + selectedBulletType);
 
@@ -166,13 +186,7 @@ public class Player_hand_script : MonoBehaviour
         {
             Debug.Log("shot");
             bulletScript.SetSpeed(bulletSpeed);
-            selectedBulletType++;
 
-            if (selectedBulletType > 5)
-            {
-                selectedBulletType = 1;
-            }
-            UpdateBulletText();
         }
 
 
@@ -180,8 +194,9 @@ public class Player_hand_script : MonoBehaviour
             hasShotBulletType[typeIndex] = true;
             lastShootTime = Time.time;
 
-            //AudioManager.instance.PlayOneShot(shootSound, transform.position);
-            Debug.Log($"Strzał typ {selectedBulletType} | ammo: {ammo}");
+        //AudioManager.instance.PlayOneShot(shootSound, transform.position);
+        Debug.Log($"Strzał typ {selectedBulletType} | ammo: {ammo}");
+        UpdateBulletText();
     }
 
     private void OnTriggerEnter(Collider other)

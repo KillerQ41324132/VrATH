@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "XRI Default Input Actions",
     "maps": [
         {
@@ -1313,7 +1314,7 @@
                 {
                     "name": "Turn",
                     "type": "Value",
-                    "id": "9164e093-ebd4-4923-af32-1b52f31c2d66",
+                    "id": "168a0300-386b-43a5-929d-d6dfea8c887a",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -1331,7 +1332,7 @@
                 {
                     "name": "Move",
                     "type": "Value",
-                    "id": "9693e25f-8a4f-4aed-842f-3961243c69a1",
+                    "id": "bb0107d9-03aa-4d07-8f4e-a8d3e322cb41",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -1372,7 +1373,7 @@
                 },
                 {
                     "name": "",
-                    "id": "99cb7ad1-51ec-4611-af68-92a85f2c17d6",
+                    "id": "d99d706c-6dd1-4b6c-9379-d9f0e4ccb910",
                     "path": "<XRController>{LeftHand}/{Primary2DAxis}",
                     "interactions": "Sector(directions=12,sweepBehavior=1),Sector(directions=2,sweepBehavior=2)",
                     "processors": "",
@@ -1383,7 +1384,7 @@
                 },
                 {
                     "name": "",
-                    "id": "8e383b1a-270f-4c20-819b-89a59cffb498",
+                    "id": "8083c4d6-e96b-44da-a283-5ee0a145a779",
                     "path": "<XRController>{LeftHand}/{Primary2DAxis}",
                     "interactions": "",
                     "processors": "StickDeadzone",
@@ -2422,9 +2423,9 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Move",
+                    "name": "Move1",
                     "type": "Value",
-                    "id": "00a4dc9f-1ee6-4349-b0e9-72d5dccaadd6",
+                    "id": "e7bca3c5-6935-495c-ab40-916dab9dcee5",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -2485,12 +2486,12 @@
                 },
                 {
                     "name": "",
-                    "id": "022046aa-be71-4288-859d-6dd42844f6e6",
+                    "id": "ac319e1c-c02a-44f2-9ef0-9f721b8101cc",
                     "path": "<XRController>{RightHand}/{Primary2DAxis}",
                     "interactions": "",
                     "processors": "StickDeadzone",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Move1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

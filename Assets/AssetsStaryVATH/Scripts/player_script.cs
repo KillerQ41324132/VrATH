@@ -82,7 +82,7 @@ public class player_script : MonoBehaviour
         }
         else if(win && isDead && killerTransform != null)
         {
-            SmoothLookAtKiller(killerTransform);
+            //SmoothLookAtKiller(killerTransform);
         }
         if (Input.GetMouseButton(1) && !win && !isDead || Input.GetKey(KeyCode.W) && !win && !isDead ) // to lub to, ale bez tego albo/lub 
         {
@@ -126,18 +126,24 @@ public class player_script : MonoBehaviour
         transform.position = pos;
     }
 
+
+
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Demon"))
         {
             Debug.Log("DEATH");
             gameObject.tag = "Dead";
-            isDead = true;
+
+            SceneManager.LoadScene("level_0");
+
+            /*isDead = true;
             killerTransform = other.transform;
             lookTimer = 0f; // resetujemy licznik
             RuntimeManager.PlayOneShot(deathPlayer);
             ReturnToSpawn();
-            GameManager.Instance.Placing();
+            GameManager.Instance.Placing();*/
         }
         if (other.CompareTag("House"))
         {
@@ -170,7 +176,7 @@ public class player_script : MonoBehaviour
 
         while (Vector3.Distance(transform.position, spawnPoint) > 0.01f)
         {
-            if (!isDead) yield break; // PRZERYWAMY, jeœli gracz ju¿ nie jest "martwy"
+            if (!isDead) yield break;
 
             speed += acceleration * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, spawnPoint, speed * Time.deltaTime);
@@ -179,7 +185,7 @@ public class player_script : MonoBehaviour
 
         transform.position = spawnPoint;
     }
-
+    /*
     private void SmoothLookAtKiller(Transform killer)
     {
         Vector3 directionToKiller = killer.position - transform.position;
@@ -191,7 +197,7 @@ public class player_script : MonoBehaviour
         lookTimer += Time.deltaTime / lookDuration;
 
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, lookTimer);
-    }
+    }*/
 
     void UpdateTimerDisplay()
     {

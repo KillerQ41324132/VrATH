@@ -415,7 +415,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
 
             // Ensure the enabled state of locomotion and turn actions are properly set up.
             // Called in Start so it is done after the InputActionManager enables all input actions earlier in OnEnable.
-            UpdateLocomotionActions();
+            //UpdateLocomotionActions();
             UpdateUIActions();
         }
 
@@ -457,33 +457,33 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
 
         void UpdateLocomotionActions()
         {
-            // Disable/enable Teleport and Turn when Move is enabled/disabled.
-            SetEnabled(m_Move, m_SmoothMotionEnabled);
-            SetEnabled(m_TeleportMode, !m_SmoothMotionEnabled);
-            SetEnabled(m_TeleportModeCancel, !m_SmoothMotionEnabled);
+            //// Disable/enable Teleport and Turn when Move is enabled/disabled.
+            // SetEnabled(m_Move, m_SmoothMotionEnabled);
+            //SetEnabled(m_TeleportMode, !m_SmoothMotionEnabled);
+            //SetEnabled(m_TeleportModeCancel, !m_SmoothMotionEnabled);
 
-            // Disable ability to turn when using continuous movement
-            SetEnabled(m_Turn, !m_SmoothMotionEnabled && m_SmoothTurnEnabled);
-            SetEnabled(m_SnapTurn, !m_SmoothMotionEnabled && !m_SmoothTurnEnabled);
+            //// Disable ability to turn when using continuous movement
+            //SetEnabled(m_Turn, !m_SmoothMotionEnabled && m_SmoothTurnEnabled);
+            //SetEnabled(m_SnapTurn, !m_SmoothMotionEnabled && !m_SmoothTurnEnabled);
         }
 
         void DisableTeleportActions()
         {
-            DisableAction(m_TeleportMode);
-            DisableAction(m_TeleportModeCancel);
+            //DisableAction(m_TeleportMode);
+            //DisableAction(m_TeleportModeCancel);
         }
 
         void DisableMoveAndTurnActions()
         {
-            DisableAction(m_Move);
-            DisableAction(m_Turn);
-            DisableAction(m_SnapTurn);
+            //DisableAction(m_Move);
+            //DisableAction(m_Turn);
+            //DisableAction(m_SnapTurn);
         }
 
         void DisableAllLocomotionActions()
         {
-            DisableTeleportActions();
-            DisableMoveAndTurnActions();
+            //DisableTeleportActions();
+            //DisableMoveAndTurnActions();
         }
 
         void UpdateUIActions()
