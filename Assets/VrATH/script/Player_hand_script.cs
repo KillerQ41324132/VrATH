@@ -17,11 +17,11 @@ public class Player_hand_script : MonoBehaviour
 
     [Header("Input System")]
     [SerializeField] private InputActionReference rightJoystick;
+    [SerializeField] private Transform bullet_start_point;
     [SerializeField] private InputActionReference shootAction;
-
     private int ammo;
     private bool isDead = false;
-    private bool HouseZone;
+    [SerializeField] private bool HouseZone;
 
     private bool[] hasShotBulletType = new bool[5];
     private int selectedBulletType = 1;
@@ -159,9 +159,9 @@ public class Player_hand_script : MonoBehaviour
         }
 
         GameObject prefabToUse = HouseZone ? armInteraction : pistolBullet;
-        GameObject bullet = Instantiate(prefabToUse, transform.position, transform.rotation);
+        GameObject bullet = Instantiate(prefabToUse, bullet_start_point.position, bullet_start_point.rotation);
 
-        /*if (HouseZone)
+        if (HouseZone)
         {
             string layerName = selectedBulletType switch
             {
@@ -179,13 +179,14 @@ public class Player_hand_script : MonoBehaviour
                 if (layer != -1)
                     bullet.layer = layer;
             }
-        }*/
+        }
 
         Bullet bulletScript = bullet.GetComponent<Bullet>();
         if (bulletScript != null)
         {
             Debug.Log("shot");
             bulletScript.SetSpeed(bulletSpeed);
+
 
         }
 
