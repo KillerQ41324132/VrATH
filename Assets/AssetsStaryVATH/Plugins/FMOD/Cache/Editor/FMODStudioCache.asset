@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Cyrk.bank
   Name: Cyrk
   StudioPath: bank:/Cyrk
-  lastModified: 639149009939794086
+  lastModified: 639149021902537521
   FileSizes:
   - Name: Desktop
-    Value: 2018176
+    Value: 2041728
   Exists: 1
 --- !u!114 &-7618313017778054117
 MonoBehaviour:
@@ -109,10 +109,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639149004766863241
+  lastModified: 639149021902587765
   FileSizes:
   - Name: Desktop
-    Value: 1450
+    Value: 1528
   Exists: 1
 --- !u!114 &-4793507396523427171
 MonoBehaviour:
@@ -237,7 +237,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639149004766848162
+  lastModified: 639149021902587765
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -269,6 +269,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 137167
+--- !u!114 &-672306610953607960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sx_strza\u0142"
+  m_EditorClassIdentifier: 
+  Path: "event:/sx_strza\u0142"
+  Guid:
+    Data1: 1629143406
+    Data2: 1233024185
+    Data3: 872838788
+    Data4: 696095752
+  Banks:
+  - {fileID: 3655612024969353457}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,6 +313,7 @@ MonoBehaviour:
   - {fileID: -8892717005745200308}
   - {fileID: -7618313017778054117}
   - {fileID: -1881334664274986448}
+  - {fileID: 3655612024969353457}
   EditorEvents:
   - {fileID: -1655347875550017820}
   - {fileID: 8326067894180365893}
@@ -301,13 +329,14 @@ MonoBehaviour:
   - {fileID: 8753864907482743721}
   - {fileID: 5165785451516832912}
   - {fileID: -2463586751386711861}
+  - {fileID: -672306610953607960}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1881334664274986448}
   StringsBanks:
   - {fileID: -6199862662631761899}
   cacheVersion: 131859
-  cacheTime: 639149009940005151
+  cacheTime: 639149021902633573
   SerializableEventsDict:
   - key: event:/Cyrk/mx_amb_cyrk
     index: 0
@@ -337,6 +366,28 @@ MonoBehaviour:
     index: 12
   - key: event:/Japan/Maski/sx_maska_5
     index: 13
+  - key: "event:/sx_strza\u0142"
+    index: 14
+--- !u!114 &3655612024969353457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: "bank:/og\xF3lne.bank"
+  m_EditorClassIdentifier: 
+  Path: "Assets/VrATH/audio/VrATH/Build/Desktop/og\xF3lne.bank"
+  Name: "og\xF3lne"
+  StudioPath: "bank:/og\xF3lne"
+  lastModified: 639149021902633573
+  FileSizes:
+  - Name: Desktop
+    Value: 1214
+  Exists: 1
 --- !u!114 &3931105877553403288
 MonoBehaviour:
   m_ObjectHideFlags: 0
