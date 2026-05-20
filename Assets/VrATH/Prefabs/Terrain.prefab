@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3a14fd40226d8c4bb1a7eb919953ed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tree1: {fileID: 6848956434194026364, guid: aa9191b8de2c88e4898c29f84b0c2f2c, type: 3}
-  tree2: {fileID: 1394344564487368757, guid: de773b9a28e7c22499878464adab68a9, type: 3}
+  tree1: {fileID: 1832357165904166665, guid: 91009bc08297ed248a1e917bfe7727f2, type: 3}
+  tree2: {fileID: 1832357165904166665, guid: 91009bc08297ed248a1e917bfe7727f2, type: 3}
   numberOfSpawns: 5
 --- !u!65 &6166318391232542076
 BoxCollider:

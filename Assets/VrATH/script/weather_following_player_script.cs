@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class weather_following_player_script : MonoBehaviour
 {
-    private GameObject player;
-    public float speed = 1f;
+    [SerializeField] private GameObject player;
+    [SerializeField] private float speed;
 
     void Start()
     {
-
-        if (global::Player.Instance != null)
+        if (Player.Instance != null)
         {
-            player = global::Player.Instance.gameObject;
+            player = Player.Instance.gameObject;
         }
         else
         {
@@ -20,12 +19,12 @@ public class weather_following_player_script : MonoBehaviour
 
     void Update()
     {
-        if (player != null && player.transform.position.x > 2.2f)
+        if (player != null)
         {
             Vector3 currentPosition = transform.position;
 
-            // Ustawiamy X taki sam jak u gracza
-            transform.position = new Vector3(player.transform.position.x, currentPosition.y, currentPosition.z);
+            // Ustawiamy z taki sam jak u gracza
+            transform.position = new Vector3(currentPosition.x, currentPosition.y, player.transform.position.z);
 
         }
     }
