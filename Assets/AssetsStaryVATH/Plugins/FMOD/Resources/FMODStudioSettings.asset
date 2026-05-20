@@ -818,8 +818,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Audio/Zaliczenie Audio/Zaliczenie Audio.fspro
-  sourceBankPath: Audio/Zaliczenie Audio/Build
+  sourceProjectPath: Assets/VrATH/audio/VrATH/VrATH.fspro
+  sourceBankPath: Assets/VrATH/audio/VrATH/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -831,6 +831,7 @@ MonoBehaviour:
   TargetAssetPath: FMODBanks
   TargetBankFolder: 
   EventLinkage: 0
+  SerializeGUIDsOnly: 0
   LoggingLevel: 2
   SpeakerModeSettings: []
   SampleRateSettings: []
@@ -843,16 +844,8 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - amb
-  - Car
-  - Chodzenie
-  - Death
-  - Krzak
-  - Radio OnOff
-  - Reload
-  - Ryk
-  - shoot
-  - Vibe
+  - Cyrk
+  - Las_Bambus
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
@@ -864,7 +857,7 @@ MonoBehaviour:
   EnableErrorCallback: 0
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
-  CurrentVersion: 131624
+  CurrentVersion: 131859
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131624
   Platforms:
