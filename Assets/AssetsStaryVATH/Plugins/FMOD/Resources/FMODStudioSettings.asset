@@ -846,6 +846,7 @@ MonoBehaviour:
   Banks:
   - Cyrk
   - Las_Bambus
+  - "og\xF3lne"
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
