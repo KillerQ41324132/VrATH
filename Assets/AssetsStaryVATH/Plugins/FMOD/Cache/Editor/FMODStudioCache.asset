@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Las_Bambus.bank
   Name: Las_Bambus
   StudioPath: bank:/Las_Bambus
-  lastModified: 639154988188835913
+  lastModified: 639155048022794363
   FileSizes:
   - Name: Desktop
-    Value: 1020288
+    Value: 1118656
   Exists: 1
 --- !u!114 &-6956309357358733663
 MonoBehaviour:
@@ -93,7 +93,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 4200
 --- !u!114 &-6199862662631761899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -566,7 +566,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6199862662631761899}
   cacheVersion: 131859
-  cacheTime: 639154988190318275
+  cacheTime: 639155048022794363
   SerializableEventsDict:
   - key: event:/Cyrk/mx_amb_cyrk
     index: 0

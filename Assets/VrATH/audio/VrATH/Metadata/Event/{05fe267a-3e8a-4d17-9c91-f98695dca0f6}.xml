@@ -5,7 +5,7 @@
 			<value>sx_vibe_las</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{77e08b81-9714-468c-b3f5-3139657094cd}</destination>
@@ -90,8 +90,12 @@
 	<object class="MixerBusPanner" id="{0fe7a5b9-0c3c-456e-829c-4c802f722a44}" />
 	<object class="MultiSound" id="{9ee4d055-c02c-4e7f-a223-12a637f966a7}">
 		<property name="length">
-			<value>2</value>
+			<value>4.2000000000000002</value>
 		</property>
+		<relationship name="sounds">
+			<destination>{a21797ca-08f5-442a-a26d-635c30d29231}</destination>
+			<destination>{60b3679a-3bcc-4bd8-b64a-8a88246fae2f}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{dc6797aa-dfb8-4092-8af5-e8a5462e0c5a}">
 		<property name="name">
@@ -114,6 +118,16 @@
 	</object>
 	<object class="MixerBusPanner" id="{18954cb1-3c9f-451b-84f8-230487e2796c}" />
 	<object class="MixerBusFader" id="{b42ed9da-464e-48dc-ba78-59bbe4116979}" />
+	<object class="SingleSound" id="{a21797ca-08f5-442a-a26d-635c30d29231}">
+		<relationship name="audioFile">
+			<destination>{fd0bbe3e-4e0e-4b61-bc95-9943bd29932e}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{60b3679a-3bcc-4bd8-b64a-8a88246fae2f}">
+		<relationship name="audioFile">
+			<destination>{07c4ed0c-0cc4-4df1-aae1-ce6d374d33fb}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{529b7637-bcef-4787-92eb-aae50199e5d1}">
 		<relationship name="effects">
 			<destination>{1af680b1-5742-4020-b645-45dc07c8b6ce}</destination>
