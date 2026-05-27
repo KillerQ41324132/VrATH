@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a2273c04-d276-4cd5-a6ed-78b9ffc9d0f2}">
+		<property name="assetPath">
+			<value>Krzaki/106113__j1987__bushhit.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.2643083900226757</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5d816995-a403-4933-b346-8a2a4fbb3d14}</destination>
+		</relationship>
+	</object>
+</objects>

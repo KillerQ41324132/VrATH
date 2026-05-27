@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Cyrk.bank
   Name: Cyrk
   StudioPath: bank:/Cyrk
-  lastModified: 639149021902537521
+  lastModified: 639154988188023387
   FileSizes:
   - Name: Desktop
-    Value: 2041728
+    Value: 2214592
   Exists: 1
 --- !u!114 &-7618313017778054117
 MonoBehaviour:
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Las_Bambus.bank
   Name: Las_Bambus
   StudioPath: bank:/Las_Bambus
-  lastModified: 639149009940005151
+  lastModified: 639154988188835913
   FileSizes:
   - Name: Desktop
-    Value: 980032
+    Value: 1020288
   Exists: 1
 --- !u!114 &-6956309357358733663
 MonoBehaviour:
@@ -66,7 +66,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 3350
 --- !u!114 &-6910103769202871118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,11 +109,65 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639149021902587765
+  lastModified: 639154988188903650
   FileSizes:
   - Name: Desktop
-    Value: 1528
+    Value: 2260
   Exists: 1
+--- !u!114 &-5335644532292023364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Japan/Maski/sx_maska_4_wyskok
+  m_EditorClassIdentifier: 
+  Path: event:/Japan/Maski/sx_maska_4_wyskok
+  Guid:
+    Data1: -1783357031
+    Data2: 1308809649
+    Data3: 1601090951
+    Data4: -1925598850
+  Banks:
+  - {fileID: -7618313017778054117}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-5298495834650963821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Japan/Maski/sx_maska_2_wyskok
+  m_EditorClassIdentifier: 
+  Path: event:/Japan/Maski/sx_maska_2_wyskok
+  Guid:
+    Data1: -1648804116
+    Data2: 1211693643
+    Data3: -69316217
+    Data4: 894702550
+  Banks:
+  - {fileID: -7618313017778054117}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-4793507396523427171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,7 +194,61 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 2550
+--- !u!114 &-3851106736895079203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cyrk/Klauny/sx_Klaun_wrrr_wyskok
+  m_EditorClassIdentifier: 
+  Path: event:/Cyrk/Klauny/sx_Klaun_wrrr_wyskok
+  Guid:
+    Data1: -487718369
+    Data2: 1323575842
+    Data3: -1495442044
+    Data4: -1525228520
+  Banks:
+  - {fileID: -8892717005745200308}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2540
+--- !u!114 &-3767375564319073697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sx_death_mc
+  m_EditorClassIdentifier: 
+  Path: event:/sx_death_mc
+  Guid:
+    Data1: 833016534
+    Data2: 1234484537
+    Data3: 1358186424
+    Data4: 2000516064
+  Banks:
+  - {fileID: 3655612024969353457}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 611
 --- !u!114 &-3639504243042497094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +276,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-3433831034108014216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Japan/Maski/sx_maska_5_wyskok
+  m_EditorClassIdentifier: 
+  Path: event:/Japan/Maski/sx_maska_5_wyskok
+  Guid:
+    Data1: 597628266
+    Data2: 1090055608
+    Data3: 1534295186
+    Data4: 1115721680
+  Banks:
+  - {fileID: -7618313017778054117}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-3359020620104743372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Japan/Maski/sx_maska_3_wyskok
+  m_EditorClassIdentifier: 
+  Path: event:/Japan/Maski/sx_maska_3_wyskok
+  Guid:
+    Data1: -1913210106
+    Data2: 1090202367
+    Data3: -1816368755
+    Data4: -1379909762
+  Banks:
+  - {fileID: -7618313017778054117}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-3288655337310315029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sx_prze\u0142adowanie"
+  m_EditorClassIdentifier: 
+  Path: "event:/sx_prze\u0142adowanie"
+  Guid:
+    Data1: -1410351931
+    Data2: 1245779471
+    Data3: 1673710726
+    Data4: 544741012
+  Banks:
+  - {fileID: 3655612024969353457}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
 --- !u!114 &-3256321225313235661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,6 +384,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 30961
+--- !u!114 &-2956307150152527687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Japan/Maski/sx_maska_1_wyskok
+  m_EditorClassIdentifier: 
+  Path: event:/Japan/Maski/sx_maska_1_wyskok
+  Guid:
+    Data1: 656986197
+    Data2: 1225988558
+    Data3: -1922716244
+    Data4: 510255425
+  Banks:
+  - {fileID: -7618313017778054117}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-2463586751386711861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,7 +453,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639149021902587765
+  lastModified: 639154988188893549
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -295,7 +511,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,13 +546,27 @@ MonoBehaviour:
   - {fileID: 5165785451516832912}
   - {fileID: -2463586751386711861}
   - {fileID: -672306610953607960}
+  - {fileID: -3851106736895079203}
+  - {fileID: 8325546675941468211}
+  - {fileID: 5406362879986025112}
+  - {fileID: 7351023022652973201}
+  - {fileID: 2434566531011124648}
+  - {fileID: 8725784131866224269}
+  - {fileID: -3359020620104743372}
+  - {fileID: -2956307150152527687}
+  - {fileID: -3433831034108014216}
+  - {fileID: -5335644532292023364}
+  - {fileID: -5298495834650963821}
+  - {fileID: 8251754234555998974}
+  - {fileID: -3288655337310315029}
+  - {fileID: -3767375564319073697}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1881334664274986448}
   StringsBanks:
   - {fileID: -6199862662631761899}
   cacheVersion: 131859
-  cacheTime: 639149021902633573
+  cacheTime: 639154988190318275
   SerializableEventsDict:
   - key: event:/Cyrk/mx_amb_cyrk
     index: 0
@@ -368,6 +598,61 @@ MonoBehaviour:
     index: 13
   - key: "event:/sx_strza\u0142"
     index: 14
+  - key: event:/Cyrk/Klauny/sx_Klaun_wrrr_wyskok
+    index: 15
+  - key: "event:/Cyrk/Klauny/sx_Klaun_p\u0142acz_wyskok"
+    index: 16
+  - key: event:/Cyrk/Klauny/sx_Klaun_zalot_wyskok
+    index: 17
+  - key: event:/Cyrk/Klauny/sx_Klaun_strach_wyskok
+    index: 18
+  - key: "event:/Cyrk/Klauny/sx_Klaun_\u015Bmiech_wyskok"
+    index: 19
+  - key: event:/Cyrk/Klauny/sx_death_Klaun
+    index: 20
+  - key: event:/Japan/Maski/sx_maska_3_wyskok
+    index: 21
+  - key: event:/Japan/Maski/sx_maska_1_wyskok
+    index: 22
+  - key: event:/Japan/Maski/sx_maska_5_wyskok
+    index: 23
+  - key: event:/Japan/Maski/sx_maska_4_wyskok
+    index: 24
+  - key: event:/Japan/Maski/sx_maska_2_wyskok
+    index: 25
+  - key: event:/sx_chodzenie
+    index: 26
+  - key: "event:/sx_prze\u0142adowanie"
+    index: 27
+  - key: event:/sx_death_mc
+    index: 28
+--- !u!114 &2434566531011124648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Cyrk/Klauny/sx_Klaun_\u015Bmiech_wyskok"
+  m_EditorClassIdentifier: 
+  Path: "event:/Cyrk/Klauny/sx_Klaun_\u015Bmiech_wyskok"
+  Guid:
+    Data1: 36565120
+    Data2: 1306446594
+    Data3: -278642776
+    Data4: 558614509
+  Banks:
+  - {fileID: -8892717005745200308}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1720
 --- !u!114 &3655612024969353457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,10 +668,10 @@ MonoBehaviour:
   Path: "Assets/VrATH/audio/VrATH/Build/Desktop/og\xF3lne.bank"
   Name: "og\xF3lne"
   StudioPath: "bank:/og\xF3lne"
-  lastModified: 639149021902633573
+  lastModified: 639154988190318275
   FileSizes:
   - Name: Desktop
-    Value: 1214
+    Value: 284896
   Exists: 1
 --- !u!114 &3931105877553403288
 MonoBehaviour:
@@ -442,6 +727,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &4367135316366118981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sx_chodzenie/Chodzenie
+  m_EditorClassIdentifier: 
+  Name: Chodzenie
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3485863745
+    data2: 1539511065
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - drewno
+  - trawa
+  - "kamie\u0144"
+  Exists: 1
 --- !u!114 &4839763294416126270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,6 +808,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &5406362879986025112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cyrk/Klauny/sx_Klaun_zalot_wyskok
+  m_EditorClassIdentifier: 
+  Path: event:/Cyrk/Klauny/sx_Klaun_zalot_wyskok
+  Guid:
+    Data1: -1175895714
+    Data2: 1306691257
+    Data3: 1412370335
+    Data4: -1696825493
+  Banks:
+  - {fileID: -8892717005745200308}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2090
 --- !u!114 &6926026487510882578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -523,6 +862,88 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &7351023022652973201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cyrk/Klauny/sx_Klaun_strach_wyskok
+  m_EditorClassIdentifier: 
+  Path: event:/Cyrk/Klauny/sx_Klaun_strach_wyskok
+  Guid:
+    Data1: -941749655
+    Data2: 1098772130
+    Data3: 1672777407
+    Data4: -1595841170
+  Banks:
+  - {fileID: -8892717005745200308}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2090
+--- !u!114 &8251754234555998974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sx_chodzenie
+  m_EditorClassIdentifier: 
+  Path: event:/sx_chodzenie
+  Guid:
+    Data1: -752596920
+    Data2: 1125629170
+    Data3: 752232636
+    Data4: -1675581620
+  Banks:
+  - {fileID: 3655612024969353457}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4367135316366118981}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8325546675941468211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Cyrk/Klauny/sx_Klaun_p\u0142acz_wyskok"
+  m_EditorClassIdentifier: 
+  Path: "event:/Cyrk/Klauny/sx_Klaun_p\u0142acz_wyskok"
+  Guid:
+    Data1: 264142894
+    Data2: 1253682945
+    Data3: -905096044
+    Data4: 1317163743
+  Banks:
+  - {fileID: -8892717005745200308}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1760
 --- !u!114 &8326067894180365893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -549,7 +970,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 3000
+  Length: 2000
+--- !u!114 &8725784131866224269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cyrk/Klauny/sx_death_Klaun
+  m_EditorClassIdentifier: 
+  Path: event:/Cyrk/Klauny/sx_death_Klaun
+  Guid:
+    Data1: -1531670802
+    Data2: 1099624787
+    Data3: 367482039
+    Data4: -1470871367
+  Banks:
+  - {fileID: -8892717005745200308}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
 --- !u!114 &8753864907482743721
 MonoBehaviour:
   m_ObjectHideFlags: 0

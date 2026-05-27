@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{b4f469da-f518-4871-90cb-791df9cd9e22}">
+		<property name="assetPath">
+			<value>Rykowisko_v2/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5d816995-a403-4933-b346-8a2a4fbb3d14}</destination>
+		</relationship>
+	</object>
+</objects>
