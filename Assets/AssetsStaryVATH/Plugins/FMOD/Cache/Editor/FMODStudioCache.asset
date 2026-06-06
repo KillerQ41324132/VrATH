@@ -109,10 +109,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639163456171188689
+  lastModified: 639163516835011241
   FileSizes:
   - Name: Desktop
-    Value: 2260
+    Value: 2208
   Exists: 1
 --- !u!114 &-5335644532292023364
 MonoBehaviour:
@@ -453,7 +453,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639163456171188689
+  lastModified: 639163516834995847
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -566,7 +566,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6199862662631761899}
   cacheVersion: 131859
-  cacheTime: 639163456172391605
+  cacheTime: 639163516835323233
   SerializableEventsDict:
   - key: event:/Cyrk/mx_amb_cyrk
     index: 0
@@ -668,10 +668,10 @@ MonoBehaviour:
   Path: "Assets/VrATH/audio/VrATH/Build/Desktop/og\xF3lne.bank"
   Name: "og\xF3lne"
   StudioPath: "bank:/og\xF3lne"
-  lastModified: 639163456172391605
+  lastModified: 639163516835323233
   FileSizes:
   - Name: Desktop
-    Value: 284896
+    Value: 234752
   Exists: 1
 --- !u!114 &3931105877553403288
 MonoBehaviour:
@@ -727,33 +727,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
---- !u!114 &4367135316366118981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/sx_chodzenie/Chodzenie
-  m_EditorClassIdentifier: 
-  Name: Chodzenie
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 3485863745
-    data2: 1539511065
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - drewno
-  - trawa
-  - "kamie\u0144"
-  Exists: 1
 --- !u!114 &4839763294416126270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -912,11 +885,10 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters:
-  - {fileID: 4367135316366118981}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2000
 --- !u!114 &8325546675941468211
 MonoBehaviour:
   m_ObjectHideFlags: 0

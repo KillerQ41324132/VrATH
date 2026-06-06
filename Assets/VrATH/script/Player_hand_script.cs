@@ -161,7 +161,7 @@ public class Player_hand_script : MonoBehaviour
         GameObject prefabToUse = HouseZone ? armInteraction : pistolBullet;
         GameObject bullet = Instantiate(prefabToUse, bullet_start_point.position, bullet_start_point.rotation);
 
-        if (HouseZone)
+        if (!HouseZone)
         {
             string layerName = selectedBulletType switch
             {

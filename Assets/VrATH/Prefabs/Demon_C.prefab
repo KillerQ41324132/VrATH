@@ -92,15 +92,15 @@ MonoBehaviour:
   demonChild: {fileID: 0}
   BushC:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2106249680
+      Data2: 1324684320
+      Data3: -1788173136
+      Data4: -1039225312
+    Path: event:/Japan/Maski/sx_maska_3
   BushCJump:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1913210106
+      Data2: 1090202367
+      Data3: -1816368755
+      Data4: -1379909762
+    Path: event:/Japan/Maski/sx_maska_3_wyskok
