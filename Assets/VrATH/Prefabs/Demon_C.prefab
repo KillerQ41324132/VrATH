@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af4ecc90eb54af34ba9c4728983c96e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  demonPrefab: {fileID: 3768955525583164143, guid: 9a8bce0e67794f94f9c49832309ae3ab, type: 3}
+  demonPrefab: {fileID: 3768955525583164143, guid: 67884d394525d054c820dd5c4f72ffba, type: 3}
   demonChild: {fileID: 0}
   BushC:
     Guid:
