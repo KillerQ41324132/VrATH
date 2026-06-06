@@ -126,11 +126,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Death:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1021086071
+      Data2: 1115608796
+      Data3: 667030155
+      Data4: 1557147965
+    Path: "event:/Japan/Maski/sx_maski_\u015Bmier\u0107"
   player_G: {fileID: 0}
   followSpeed: 8
   bloodParticle: {fileID: 0}
