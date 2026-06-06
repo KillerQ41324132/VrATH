@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Cyrk.bank
   Name: Cyrk
   StudioPath: bank:/Cyrk
-  lastModified: 639163617835336328
+  lastModified: 639163679036721615
   FileSizes:
   - Name: Desktop
-    Value: 2218240
+    Value: 2236448
   Exists: 1
 --- !u!114 &-8506330379747956028
 MonoBehaviour:
@@ -622,7 +622,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6199862662631761899}
   cacheVersion: 131859
-  cacheTime: 639163623801504525
+  cacheTime: 639163679036721615
   SerializableEventsDict:
   - key: event:/Cyrk/mx_amb_cyrk
     index: 0
@@ -759,7 +759,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 930
 --- !u!114 &4117245881269436810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 301
 --- !u!114 &8725784131866224269
 MonoBehaviour:
   m_ObjectHideFlags: 0
