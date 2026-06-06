@@ -62,10 +62,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Las_Bambus.bank
   Name: Las_Bambus
   StudioPath: bank:/Las_Bambus
-  lastModified: 639163583462276881
+  lastModified: 639163587011459885
   FileSizes:
   - Name: Desktop
-    Value: 1119296
+    Value: 1204640
   Exists: 1
 --- !u!114 &-6956309357358733663
 MonoBehaviour:
@@ -167,7 +167,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 1250
 --- !u!114 &-5298495834650963821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 1250
 --- !u!114 &-4793507396523427171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,7 +302,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 1150
 --- !u!114 &-3433831034108014216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,7 +329,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 1250
 --- !u!114 &-3359020620104743372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 1250
 --- !u!114 &-3288655337310315029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,7 +437,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 1250
 --- !u!114 &-2463586751386711861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,7 +464,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 992
 --- !u!114 &-2116446001914750302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -491,7 +491,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1400
 --- !u!114 &-1881334664274986448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,7 +622,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6199862662631761899}
   cacheVersion: 131859
-  cacheTime: 639163583462291934
+  cacheTime: 639163587011459885
   SerializableEventsDict:
   - key: event:/Cyrk/mx_amb_cyrk
     index: 0
@@ -728,7 +728,7 @@ MonoBehaviour:
   Path: "Assets/VrATH/audio/VrATH/Build/Desktop/og\xF3lne.bank"
   Name: "og\xF3lne"
   StudioPath: "bank:/og\xF3lne"
-  lastModified: 639163537821830513
+  lastModified: 639163516835323233
   FileSizes:
   - Name: Desktop
     Value: 234752
@@ -813,7 +813,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 992
 --- !u!114 &5165785451516832912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -840,7 +840,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 992
 --- !u!114 &5406362879986025112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1056,4 +1056,4 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 1550
