@@ -11827,6 +11827,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1721454843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8778387120971562697, guid: 877668e07d7891246b63d2f369ef5428, type: 3}
+  m_PrefabInstance: {fileID: 7811060187750168085}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1721454845
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721454843}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 5, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1726131199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17484,6 +17510,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7927599789330185142, guid: 877668e07d7891246b63d2f369ef5428, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1270145706}
+    - targetCorrespondingSourceObject: {fileID: 8778387120971562697, guid: 877668e07d7891246b63d2f369ef5428, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1721454845}
     - targetCorrespondingSourceObject: {fileID: 8778387120782893802, guid: 877668e07d7891246b63d2f369ef5428, type: 3}
       insertIndex: -1
       addedObject: {fileID: 280373039}
