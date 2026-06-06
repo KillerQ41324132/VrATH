@@ -11440,12 +11440,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 6107393099092459662, guid: dd6dae2c12394ef4b99edf35dd12136c, type: 3}
-  characterA: {fileID: 4303764142020970597, guid: d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6, type: 3}
-  characterB: {fileID: 4303764142020970597, guid: e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7, type: 3}
-  characterC: {fileID: 4303764142020970597, guid: f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8, type: 3}
-  characterD: {fileID: 4303764142020970597, guid: a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9, type: 3}
-  characterE: {fileID: 4303764142020970597, guid: b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0, type: 3}
-  characterVibe: {fileID: 4303764142020970597, guid: 612d63ea136d55042a127ff2faf7ef19, type: 3}
+  characterA: {fileID: 8150032101974414720, guid: f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1, type: 3}
+  characterB: {fileID: 8150032101974414720, guid: a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2, type: 3}
+  characterC: {fileID: 8150032101974414720, guid: b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3, type: 3}
+  characterD: {fileID: 8150032101974414720, guid: c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4, type: 3}
+  characterE: {fileID: 8150032101974414720, guid: d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5, type: 3}
+  characterVibe: {fileID: 4303764142020970597, guid: ee55e5668d15c1f4897416c707e33ee1, type: 3}
 --- !u!4 &1593643818
 Transform:
   m_ObjectHideFlags: 0
@@ -11473,8 +11473,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab75c51206b9cf48b20d1e939113359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  treePrefab: {fileID: 3768955525583164143, guid: 86fe477237e4a8c47ac0ba809e9899ec, type: 3}
-  treePrefab2: {fileID: 3768955525583164143, guid: 86fe477237e4a8c47ac0ba809e9899ec, type: 3}
+  treePrefab: {fileID: 6106818626544117652, guid: 628ca4dfc30b6d841894536696465af3, type: 3}
+  treePrefab2: {fileID: 6106818626544117652, guid: 77e4cbbe32c65f44588e637d070437c2, type: 3}
   bushPrefab: {fileID: 6107393099092459662, guid: dd6dae2c12394ef4b99edf35dd12136c, type: 3}
   numberOfTrees: 200
 --- !u!1 &1606032660
