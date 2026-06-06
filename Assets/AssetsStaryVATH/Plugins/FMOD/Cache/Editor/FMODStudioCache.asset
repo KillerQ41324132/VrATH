@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Cyrk.bank
   Name: Cyrk
   StudioPath: bank:/Cyrk
-  lastModified: 639163679036721615
+  lastModified: 639163684772700159
   FileSizes:
   - Name: Desktop
     Value: 2236448
@@ -220,7 +220,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1000
   Length: 2550
 --- !u!114 &-3851106736895079203
 MonoBehaviour:
@@ -247,7 +247,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1000
   Length: 2540
 --- !u!114 &-3767375564319073697
 MonoBehaviour:
@@ -622,7 +622,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6199862662631761899}
   cacheVersion: 131859
-  cacheTime: 639163679036721615
+  cacheTime: 639163684772700159
   SerializableEventsDict:
   - key: event:/Cyrk/mx_amb_cyrk
     index: 0
@@ -711,7 +711,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1000
   Length: 1720
 --- !u!114 &3655612024969353457
 MonoBehaviour:
@@ -758,7 +758,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1000
   Length: 930
 --- !u!114 &4117245881269436810
 MonoBehaviour:
@@ -785,7 +785,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1000
   Length: 2000
 --- !u!114 &4839763294416126270
 MonoBehaviour:
@@ -866,7 +866,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1000
   Length: 2090
 --- !u!114 &6926026487510882578
 MonoBehaviour:
@@ -893,7 +893,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1000
   Length: 2000
 --- !u!114 &7351023022652973201
 MonoBehaviour:
@@ -920,7 +920,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1000
   Length: 2090
 --- !u!114 &8251754234555998974
 MonoBehaviour:
@@ -974,7 +974,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1000
   Length: 1760
 --- !u!114 &8326067894180365893
 MonoBehaviour:
@@ -1001,7 +1001,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1000
   Length: 301
 --- !u!114 &8725784131866224269
 MonoBehaviour:
