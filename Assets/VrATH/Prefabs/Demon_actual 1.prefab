@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2025202214627619191}
   - component: {fileID: 6008505258387701742}
   m_Layer: 0
-  m_Name: Demon_actual
+  m_Name: Demon_actual 1
   m_TagString: Demon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,7 +212,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: be9918a5537221646a9823a410480820, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 5ac67eba9f8c61241b8e63e024956b12, type: 2}
+      objectReference: {fileID: 2100000, guid: 4960017bad7197e4a898261ef6928f3b, type: 2}
     - target: {fileID: 919132149155446097, guid: be9918a5537221646a9823a410480820, type: 3}
       propertyPath: m_Name
       value: mask_uv

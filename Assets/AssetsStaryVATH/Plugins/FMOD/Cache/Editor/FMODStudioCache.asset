@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Cyrk.bank
   Name: Cyrk
   StudioPath: bank:/Cyrk
-  lastModified: 639163456165362493
+  lastModified: 639163581292486922
   FileSizes:
   - Name: Desktop
-    Value: 2214592
+    Value: 2215232
   Exists: 1
+--- !u!114 &-8506330379747956028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Cyrk/Klauny/sx_Klaun_\u015Bmier\u0107"
+  m_EditorClassIdentifier: 
+  Path: "event:/Cyrk/Klauny/sx_Klaun_\u015Bmier\u0107"
+  Guid:
+    Data1: 607651724
+    Data2: 1260917285
+    Data3: -1017996653
+    Data4: -1105809609
+  Banks:
+  - {fileID: -8892717005745200308}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7618313017778054117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,10 +62,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Las_Bambus.bank
   Name: Las_Bambus
   StudioPath: bank:/Las_Bambus
-  lastModified: 639163456171116046
+  lastModified: 639163581292706782
   FileSizes:
   - Name: Desktop
-    Value: 1118656
+    Value: 1119296
   Exists: 1
 --- !u!114 &-6956309357358733663
 MonoBehaviour:
@@ -109,10 +136,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639163516835011241
+  lastModified: 639163581292736918
   FileSizes:
   - Name: Desktop
-    Value: 2208
+    Value: 2308
   Exists: 1
 --- !u!114 &-5335644532292023364
 MonoBehaviour:
@@ -438,6 +465,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-2116446001914750302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Japan/Maski/sx_maski_\u015Bmier\u0107"
+  m_EditorClassIdentifier: 
+  Path: "event:/Japan/Maski/sx_maski_\u015Bmier\u0107"
+  Guid:
+    Data1: -1021086071
+    Data2: 1115608796
+    Data3: 667030155
+    Data4: 1557147965
+  Banks:
+  - {fileID: -7618313017778054117}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-1881334664274986448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,7 +507,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639163516834995847
+  lastModified: 639163581292736918
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -560,13 +614,15 @@ MonoBehaviour:
   - {fileID: 8251754234555998974}
   - {fileID: -3288655337310315029}
   - {fileID: -3767375564319073697}
+  - {fileID: -8506330379747956028}
+  - {fileID: -2116446001914750302}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1881334664274986448}
   StringsBanks:
   - {fileID: -6199862662631761899}
   cacheVersion: 131859
-  cacheTime: 639163516835323233
+  cacheTime: 639163581292736918
   SerializableEventsDict:
   - key: event:/Cyrk/mx_amb_cyrk
     index: 0
@@ -626,6 +682,10 @@ MonoBehaviour:
     index: 27
   - key: event:/sx_death_mc
     index: 28
+  - key: "event:/Cyrk/Klauny/sx_Klaun_\u015Bmier\u0107"
+    index: 29
+  - key: "event:/Japan/Maski/sx_maski_\u015Bmier\u0107"
+    index: 30
 --- !u!114 &2434566531011124648
 MonoBehaviour:
   m_ObjectHideFlags: 0
