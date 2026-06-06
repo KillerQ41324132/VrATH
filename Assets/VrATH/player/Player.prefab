@@ -52,11 +52,11 @@ MonoBehaviour:
   moveSpeed: 0
   deathPlayer:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 833016534
+      Data2: 1234484537
+      Data3: 1358186424
+      Data4: 2000516064
+    Path: event:/sx_death_mc
   carWin:
     Guid:
       Data1: 0
@@ -73,10 +73,10 @@ MonoBehaviour:
     Path: 
   walking:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -752596920
+      Data2: 1125629170
+      Data3: 752232636
+      Data4: -1675581620
+    Path: event:/sx_chodzenie
   canvas: {fileID: 0}
   timerText: {fileID: 0}

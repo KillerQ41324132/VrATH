@@ -123,8 +123,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vibeSound:
     Guid:
-      Data1: 1560188921
-      Data2: 1197472031
-      Data3: 697588627
-      Data4: 1795099806
-    Path: event:/Vibe
+      Data1: 100542074
+      Data2: 1293368970
+      Data3: -2030464612
+      Data4: -157229931
+    Path: event:/Japan/sx_vibe_las

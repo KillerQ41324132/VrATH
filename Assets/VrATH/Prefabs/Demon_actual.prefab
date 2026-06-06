@@ -110,7 +110,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.8, y: 2.14, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2025202214627619191
 MonoBehaviour:
@@ -132,7 +132,7 @@ MonoBehaviour:
       Data4: 0
     Path: 
   player_G: {fileID: 0}
-  followSpeed: 10
+  followSpeed: 8
   bloodParticle: {fileID: 0}
 --- !u!54 &6008505258387701742
 Rigidbody:
