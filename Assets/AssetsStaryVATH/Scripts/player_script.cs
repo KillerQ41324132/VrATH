@@ -136,7 +136,7 @@ public class player_script : MonoBehaviour
             Debug.Log("DEATH");
             gameObject.tag = "Dead";
 
-            SceneManager.LoadScene("level_0");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
             /*isDead = true;
             killerTransform = other.transform;

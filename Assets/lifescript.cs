@@ -9,7 +9,7 @@ public class lifescript : MonoBehaviour
 
         if (other.CompareTag("Demon"))
         {
-            SceneManager.LoadScene("level_0");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
