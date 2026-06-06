@@ -157,7 +157,7 @@ MonoBehaviour:
       Data4: -818917602
     Path: event:/Japan/Mx_amb_las_bambus
   Event: 
-  EventPlayTrigger: 0
+  EventPlayTrigger: 1
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -11208,18 +11208,18 @@ MonoBehaviour:
   bulletSpeed: 10
   shootSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1629143406
+      Data2: 1233024185
+      Data3: 872838788
+      Data4: 696095752
+    Path: "event:/sx_strza\u0142"
   reload:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1410351931
+      Data2: 1245779471
+      Data3: 1673710726
+      Data4: 544741012
+    Path: "event:/sx_prze\u0142adowanie"
   armInteraction: {fileID: 6107393099092459662, guid: dd6dae2c12394ef4b99edf35dd12136c, type: 3}
   pistolBullet: {fileID: 815229642020422490, guid: a3ed5874ae910e947b6c95e91e0a5447, type: 3}
   rightJoystick: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f, type: 3}
