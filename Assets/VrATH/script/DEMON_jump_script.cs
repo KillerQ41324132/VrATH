@@ -26,7 +26,7 @@ public class DEMON_jump_script : MonoBehaviour
     {
         if (player_G == null) return;
 
-        Vector3 targetPos = player_G.transform.position;
+        Vector3 targetPos = player_G.transform.position + new Vector3(0, 1, 0);
 
         // Kierunek do gracza
         Vector3 direction = (targetPos - transform.position).normalized;

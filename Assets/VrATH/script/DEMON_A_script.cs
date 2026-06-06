@@ -4,13 +4,13 @@ using FMODUnity;
 public class DEMON_A_script : MonoBehaviour
 {
     [SerializeField] private GameObject demonPrefab; // Przypisany prefab dla demona
-    [SerializeField] private GameObject demonChild;  // Przypisany GameObject jako dziecko, które ma siê pojawiæ
+    [SerializeField] private GameObject demonChild;  // Przypisany GameObject jako dziecko, ktï¿½re ma siï¿½ pojawiï¿½
     [SerializeField] private EventReference BushA;
     [SerializeField] private EventReference BushA2;
     [SerializeField] private EventReference BushAJump;
     private int stage;
     private BoxCollider[] boxColliders;
-    private Vector3 spawnerPosition; // Zapamiêtana pozycja spawnera
+    private Vector3 spawnerPosition; // Zapamiï¿½tana pozycja spawnera
 
     private void Start()
     {
@@ -18,12 +18,12 @@ public class DEMON_A_script : MonoBehaviour
 
         if (colliders.Length == 0) return;
 
-        // Zak³adamy, ¿e ostatni dodany collider to ostatni w tablicy
+        // Zakï¿½adamy, ï¿½e ostatni dodany collider to ostatni w tablicy
         BoxCollider lastBoxCollider = colliders[colliders.Length - 1] as BoxCollider;
 
         if (lastBoxCollider != null)
         {
-            // Obliczamy globaln¹ pozycjê œrodka collidiera
+            // Obliczamy globalnï¿½ pozycjï¿½ ï¿½rodka collidiera
             Vector3 worldCenter = lastBoxCollider.transform.TransformPoint(lastBoxCollider.center);
             // prawo/lewo
             float offsetX = Random.Range(0f, 1f) > 0.5f ? 20f : -20f;
@@ -56,19 +56,19 @@ public class DEMON_A_script : MonoBehaviour
         }
     }
 
-    // Metody dla poszczególnych etapów
+    // Metody dla poszczegï¿½lnych etapï¿½w
     void Stage1()
     {
         RuntimeManager.PlayOneShot(BushA, spawnerPosition);//MIJSCE DLA AGNIESI
         Debug.Log("Entered Stage A1");
-        // Dodatkowe dzia³ania dla Stage 1
+        // Dodatkowe dziaï¿½ania dla Stage 1
     }
 
     void Stage2()
     {
         RuntimeManager.PlayOneShot(BushA2, spawnerPosition);//MIJSCE DLA AGNIESI
         Debug.Log("Entered Stage A2");
-        // Dodatkowe dzia³ania dla Stage 2
+        // Dodatkowe dziaï¿½ania dla Stage 2
     }
 
     void Stage3()
@@ -80,8 +80,8 @@ public class DEMON_A_script : MonoBehaviour
         if (demonPrefab != null && spawnerPosition != null)
         {
             GameObject demon = Instantiate(demonPrefab, spawnerPosition, Quaternion.identity);
-            demon.layer = LayerMask.NameToLayer("Fint"); //interakcja na jakiej warstwie //Fint bo Aint nie wspó³pracowa³o
+            demon.layer = LayerMask.NameToLayer("Fint"); //interakcja na jakiej warstwie //Fint bo Aint nie wspï¿½pracowaï¿½o
         }
-        // Dodatkowe dzia³ania dla Stage 3
+        // Dodatkowe dziaï¿½ania dla Stage 3
     }
 }
