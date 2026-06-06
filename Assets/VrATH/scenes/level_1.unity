@@ -11440,11 +11440,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 6107393099092459662, guid: dd6dae2c12394ef4b99edf35dd12136c, type: 3}
-  characterA: {fileID: 8150032101974414720, guid: 005cfb34b040d2d4c941b85b101942f4, type: 3}
-  characterB: {fileID: 8150032101974414720, guid: f4d468481a710b54daa12f13985eb740, type: 3}
-  characterC: {fileID: 8150032101974414720, guid: c26c032ef51e78b4caf51916275535aa, type: 3}
-  characterD: {fileID: 8150032101974414720, guid: e2d3ca4ca37a2764aabdaa68e7788727, type: 3}
-  characterE: {fileID: 8150032101974414720, guid: 8a44119d908eeee4ba681cb64239853e, type: 3}
+  characterA: {fileID: 4303764142020970597, guid: d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6, type: 3}
+  characterB: {fileID: 4303764142020970597, guid: e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7, type: 3}
+  characterC: {fileID: 4303764142020970597, guid: f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8, type: 3}
+  characterD: {fileID: 4303764142020970597, guid: a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9, type: 3}
+  characterE: {fileID: 4303764142020970597, guid: b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0, type: 3}
   characterVibe: {fileID: 4303764142020970597, guid: 612d63ea136d55042a127ff2faf7ef19, type: 3}
 --- !u!4 &1593643818
 Transform:
