@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Cyrk.bank
   Name: Cyrk
   StudioPath: bank:/Cyrk
-  lastModified: 639163684772700159
+  lastModified: 639163692757493672
   FileSizes:
   - Name: Desktop
     Value: 2236448
@@ -62,7 +62,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Las_Bambus.bank
   Name: Las_Bambus
   StudioPath: bank:/Las_Bambus
-  lastModified: 639163623801504525
+  lastModified: 639163645176708426
   FileSizes:
   - Name: Desktop
     Value: 1388480
@@ -136,7 +136,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639163581292736918
+  lastModified: 639163583462291934
   FileSizes:
   - Name: Desktop
     Value: 2308
@@ -507,7 +507,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639163581292736918
+  lastModified: 639149012563053613
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -622,7 +622,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6199862662631761899}
   cacheVersion: 131859
-  cacheTime: 639163684772700159
+  cacheTime: 639163692757493672
   SerializableEventsDict:
   - key: event:/Cyrk/mx_amb_cyrk
     index: 0
@@ -728,7 +728,7 @@ MonoBehaviour:
   Path: "Assets/VrATH/audio/VrATH/Build/Desktop/og\xF3lne.bank"
   Name: "og\xF3lne"
   StudioPath: "bank:/og\xF3lne"
-  lastModified: 639163516835323233
+  lastModified: 639163537821830513
   FileSizes:
   - Name: Desktop
     Value: 234752
