@@ -125,11 +125,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Death:
     Guid:
-      Data1: 718709086
-      Data2: 1302412960
-      Data3: 2101358518
-      Data4: -1718333592
-    Path: event:/Death
+      Data1: -1531670802
+      Data2: 1099624787
+      Data3: 367482039
+      Data4: -1470871367
+    Path: event:/Cyrk/Klauny/sx_death_Klaun
   player_G: {fileID: 0}
   followSpeed: 3
   bloodParticle: {fileID: 4739858200194387312, guid: 0d0c36d2b183b4546afe31ae2bce4864, type: 3}
