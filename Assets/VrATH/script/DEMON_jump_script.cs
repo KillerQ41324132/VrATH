@@ -16,7 +16,7 @@ public class DEMON_jump_script : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Obiekt z komponentem 'player_script' nie zosta³ znaleziony!");
+            Debug.LogWarning("Obiekt z komponentem 'player_script' nie zostaï¿½ znaleziony!");
         }
 
         Destroy(gameObject, 5f);
@@ -26,15 +26,15 @@ public class DEMON_jump_script : MonoBehaviour
     {
         if (player_G == null) return;
 
-        Vector3 targetPos = player_G.transform.position;
+        Vector3 targetPos = player_G.transform.position + new Vector3(0, 1, 0);
 
         // Kierunek do gracza
         Vector3 direction = (targetPos - transform.position).normalized;
 
-        // Ruch w stronê gracza
+        // Ruch w stronï¿½ gracza
         transform.position += direction * followSpeed * Time.deltaTime;
 
-        // Obrót w stronê gracza (tylko w poziomie)
+        // Obrï¿½t w stronï¿½ gracza (tylko w poziomie)
         if (direction != Vector3.zero)
         {
             transform.rotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
@@ -47,10 +47,14 @@ public class DEMON_jump_script : MonoBehaviour
         {
             RuntimeManager.PlayOneShot(Death, transform.position);
 
-            Vector3 hitPosition = other.transform.position;
-            var bloodObj = Instantiate(bloodParticle, hitPosition, Quaternion.identity);
-            Destroy(bloodObj, 1f);
-                        Destroy(gameObject);
+            if (bloodParticle != null)
+            {
+                Vector3 hitPosition = other.transform.position;
+                var bloodObj = Instantiate(bloodParticle, hitPosition, Quaternion.identity);
+                Destroy(bloodObj, 1f);
+            }
+
+            Destroy(gameObject);
         }
 
         if (other.CompareTag("Player"))

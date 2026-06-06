@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class forest_spawner_script : MonoBehaviour
 {
-    //STARE U¯YWANIE SPAWNERU DRZEW, OBECNIE JEST TO W POSZCZEGÓLNYCH PREFFABACH
+    //STARE Uï¿½YWANIE SPAWNERU DRZEW, OBECNIE JEST TO W POSZCZEGï¿½LNYCH PREFFABACH
     public GameObject treePrefab;
     public GameObject treePrefab2; // drugi prefab drzewa
 
@@ -28,7 +28,7 @@ public class forest_spawner_script : MonoBehaviour
             attempts++;
 
             float z = Random.Range(-4f, 80f);
-            float x = Random.Range(-5f, 5f);
+            float x = Random.Range(-40f, 40f);
 
             // Zakazane strefy
             if (z >= -1f && z <= 81f && x >= -1.5f && x <= 1.5f)
@@ -36,7 +36,7 @@ public class forest_spawner_script : MonoBehaviour
 
             Vector3 spawnPos = new Vector3(x, 0f, z);
 
-            // Odleg³oœæ minimalna 1
+            // Odlegï¿½oï¿½ï¿½ minimalna 1
             bool tooClose = false;
             foreach (Vector3 pos in spawnedTreePositions)
             {
@@ -49,14 +49,14 @@ public class forest_spawner_script : MonoBehaviour
             if (tooClose)
                 continue;
 
-            // Skala drzewa zale¿na od odleg³oœci od osi Z
+            // Skala drzewa zaleï¿½na od odlegï¿½oï¿½ci od osi Z
             float normalizedZ = Mathf.InverseLerp(0f, 10f, Mathf.Abs(z));
             float scale = Mathf.Lerp(0.1f, 0.4f, normalizedZ);
 
-            // Losowy obrót
+            // Losowy obrï¿½t
             Quaternion rotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
 
-            // Wybór prefabu drzewa 50/50
+            // Wybï¿½r prefabu drzewa 50/50
             GameObject selectedTreePrefab = Random.value < 0.5f ? treePrefab : treePrefab2;
 
             GameObject tree = Instantiate(selectedTreePrefab, spawnPos, rotation);
