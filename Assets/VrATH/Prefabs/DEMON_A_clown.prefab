@@ -114,22 +114,22 @@ MonoBehaviour:
   demonChild: {fileID: 0}
   BushA:
     Guid:
-      Data1: 1875640678
-      Data2: 1259437162
-      Data3: -2015991412
-      Data4: -1351014342
-    Path: event:/Japan/Maski/sx_maska_1
+      Data1: 439793436
+      Data2: 1277475721
+      Data3: -68455757
+      Data4: -590231700
+    Path: event:/Cyrk/Klauny/sx_Klaun_strach
   BushA2:
     Guid:
-      Data1: 1875640678
-      Data2: 1259437162
-      Data3: -2015991412
-      Data4: -1351014342
-    Path: event:/Japan/Maski/sx_maska_1
+      Data1: 439793436
+      Data2: 1277475721
+      Data3: -68455757
+      Data4: -590231700
+    Path: event:/Cyrk/Klauny/sx_Klaun_strach
   BushAJump:
     Guid:
-      Data1: 656986197
-      Data2: 1225988558
-      Data3: -1922716244
-      Data4: 510255425
-    Path: event:/Japan/Maski/sx_maska_1_wyskok
+      Data1: -941749655
+      Data2: 1098772130
+      Data3: 1672777407
+      Data4: -1595841170
+    Path: event:/Cyrk/Klauny/sx_Klaun_strach_wyskok

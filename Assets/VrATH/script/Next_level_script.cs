@@ -9,7 +9,7 @@ public class Next_level_script : MonoBehaviour
        
         if (other.CompareTag("Player") || other.CompareTag("Dead"))
         {
-            SceneManager.LoadScene("level_0");
+            SceneManager.LoadScene("level_1");
         }
     }
 }
