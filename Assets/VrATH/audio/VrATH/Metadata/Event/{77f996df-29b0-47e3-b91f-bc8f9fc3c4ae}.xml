@@ -5,7 +5,7 @@
 			<value>sx_Klaun_płacz</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d00b3d34-9c52-4c5a-9254-4960e8e7fa04}</destination>
@@ -115,6 +115,7 @@
 	<object class="MixerBusEffectChain" id="{cc46c769-5b58-409e-b8d9-1eb80e100ba8}">
 		<relationship name="effects">
 			<destination>{66326584-2d6b-4589-b760-3762a289dad3}</destination>
+			<destination>{34010501-cdbe-426c-96b2-812cf5508196}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0fc14690-90f8-45f6-946a-02943366a63f}" />
@@ -141,5 +142,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{ef096a13-e7ac-42d5-bc5b-6d76bcac309a}" />
 	<object class="MixerBusFader" id="{66326584-2d6b-4589-b760-3762a289dad3}" />
+	<object class="SpatialiserEffect" id="{34010501-cdbe-426c-96b2-812cf5508196}" />
 	<object class="MixerBusFader" id="{92e6f5d9-9e3a-4666-9fe7-13214abc5a0f}" />
 </objects>

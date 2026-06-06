@@ -5,7 +5,7 @@
 			<value>sx_Klaun_strach_wyskok</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d00b3d34-9c52-4c5a-9254-4960e8e7fa04}</destination>
@@ -113,6 +113,7 @@
 	<object class="MixerBusEffectChain" id="{3b12af05-213b-48f4-9c5c-3c79cc4df20f}">
 		<relationship name="effects">
 			<destination>{045f4df0-a409-4afb-ba3e-380262a100da}</destination>
+			<destination>{2144a743-074d-4587-81c9-d5e547744ab8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{63ca47a2-50e6-489b-b61c-9735f4b3704f}" />
@@ -124,5 +125,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{43f72e8a-0085-45ab-9021-6409be78d2c0}" />
 	<object class="MixerBusFader" id="{045f4df0-a409-4afb-ba3e-380262a100da}" />
+	<object class="SpatialiserEffect" id="{2144a743-074d-4587-81c9-d5e547744ab8}" />
 	<object class="MixerBusFader" id="{28c93bbc-ee6f-4f8b-8427-3fbeaae26b83}" />
 </objects>

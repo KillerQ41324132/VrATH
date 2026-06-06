@@ -5,7 +5,7 @@
 			<value>sx_maska_4_wyskok</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{efd19431-486d-4e85-8ed5-b9067ddc8e2b}</destination>
@@ -153,6 +153,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{acae2d08-daf7-49ba-81d3-ad1bd5add703}">
 		<relationship name="effects">
+			<destination>{9422dfe0-3850-498f-8822-8dfc5df6d1aa}</destination>
 			<destination>{36804adb-25f3-4e04-b82e-b47c67f2bf0f}</destination>
 		</relationship>
 	</object>
@@ -186,6 +187,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e1d10a48-94c7-49e9-afef-3f0d5c922786}" />
+	<object class="SpatialiserEffect" id="{9422dfe0-3850-498f-8822-8dfc5df6d1aa}" />
 	<object class="MixerBusFader" id="{36804adb-25f3-4e04-b82e-b47c67f2bf0f}" />
 	<object class="AutomationPoint" id="{8c12d154-1d97-45ea-805e-0d5af01cb482}">
 		<property name="position">

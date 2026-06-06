@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Cyrk.bank
   Name: Cyrk
   StudioPath: bank:/Cyrk
-  lastModified: 639163583462244608
+  lastModified: 639163617835336328
   FileSizes:
   - Name: Desktop
-    Value: 2215232
+    Value: 2218240
   Exists: 1
 --- !u!114 &-8506330379747956028
 MonoBehaviour:
@@ -62,10 +62,10 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Las_Bambus.bank
   Name: Las_Bambus
   StudioPath: bank:/Las_Bambus
-  lastModified: 639163594272325132
+  lastModified: 639163617836658844
   FileSizes:
   - Name: Desktop
-    Value: 1385472
+    Value: 1388480
   Exists: 1
 --- !u!114 &-6956309357358733663
 MonoBehaviour:
@@ -136,7 +136,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639163583462291934
+  lastModified: 639163581292736918
   FileSizes:
   - Name: Desktop
     Value: 2308
@@ -162,7 +162,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -7618313017778054117}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -189,7 +189,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -7618313017778054117}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -216,7 +216,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8892717005745200308}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -243,7 +243,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8892717005745200308}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -297,7 +297,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -7618313017778054117}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -324,7 +324,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -7618313017778054117}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -351,7 +351,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -7618313017778054117}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -432,7 +432,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -7618313017778054117}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -459,7 +459,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -7618313017778054117}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -507,7 +507,7 @@ MonoBehaviour:
   Path: Assets/VrATH/audio/VrATH/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639149012563053613
+  lastModified: 639163581292736918
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -622,7 +622,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6199862662631761899}
   cacheVersion: 131859
-  cacheTime: 639163594272325132
+  cacheTime: 639163617836658844
   SerializableEventsDict:
   - key: event:/Cyrk/mx_amb_cyrk
     index: 0
@@ -707,7 +707,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8892717005745200308}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -754,7 +754,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8892717005745200308}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -781,7 +781,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8892717005745200308}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -808,7 +808,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -7618313017778054117}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -835,7 +835,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -7618313017778054117}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -862,7 +862,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8892717005745200308}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -889,7 +889,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8892717005745200308}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -916,7 +916,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8892717005745200308}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -970,7 +970,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8892717005745200308}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -997,7 +997,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8892717005745200308}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1051,7 +1051,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -7618313017778054117}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
